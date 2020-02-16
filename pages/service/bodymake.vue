@@ -191,7 +191,7 @@ export default {
 }
 
 .servicetitle {
-  margin-top: 50px;
+  margin-top: 3%;
   padding-bottom: 50px;
 }
 
