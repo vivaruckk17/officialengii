@@ -257,7 +257,7 @@ export default {
     width: 94%;
   }
   .vision-text p {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
   }
   .vision-subtext {
     position: absolute;
@@ -266,7 +266,7 @@ export default {
     width: 94%;
   }
   .vision-subtext p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -304,7 +304,7 @@ export default {
     text-align: center;
   }
   .keii-text p {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
   }
 
   .keii-subtext {
@@ -314,7 +314,7 @@ export default {
     text-align: center;
   }
   .keii-subtext p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 480px) {
