@@ -20,7 +20,7 @@
         </div>
         <div class="row main-subtext">
           <div class="col-2"></div>
-          <div class="col-8">
+          <div class="col-8 col-md-auto">
             <p class="text-white">私たちはあなたのなりたい姿を実現する"きっかけ"を作ります</p>
           </div>
           <div class="col-2"></div>
