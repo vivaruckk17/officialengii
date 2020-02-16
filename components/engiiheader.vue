@@ -153,7 +153,7 @@ export default {};
     padding-top: 3px;
   }
   .nav-link {
-    font-size: 18px;
+    font-size: 20px;
   }
   .link-box{
     padding-top:10px;
