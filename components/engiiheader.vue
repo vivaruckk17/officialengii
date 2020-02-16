@@ -16,32 +16,33 @@
             <img src="~assets/engii.png" width="50%" height="auto" class="img-fluid" />
           </nuxt-link>
         </div>
+        <div class="col-1"></div>
         <li class="nav-item col-auto homepad">
           <router-link to="/home">
-            <p class="nav-link">HOME</p>
+            <p class="nav-link link-box">HOME</p>
           </router-link>
         </li>
         <li class="nav-item col-auto">
           <router-link to="/service/servicehome">
-            <p class="nav-link">SERVICE</p>
+            <p class="nav-link link-box">SERVICE</p>
           </router-link>
         </li>
         <li class="nav-item col-auto">
           <router-link to="/blog">
-            <p class="nav-link">BLOG</p>
+            <p class="nav-link link-box">BLOG</p>
           </router-link>
         </li>
         <li class="nav-item col-auto">
           <router-link to="/news">
-            <p class="nav-link">NEWS</p>
+            <p class="nav-link link-box">NEWS</p>
           </router-link>
         </li>
         <li class="nav-item col-auto">
           <router-link to="/contact">
-            <p class="nav-link">CONTACT</p>
+            <p class="nav-link link-box">CONTACT</p>
           </router-link>
         </li>
-        <div class="col-2"></div>
+        <div class="col-1"></div>
       </ul>
     </div>
     <div id="menu-background"></div>
@@ -152,6 +153,9 @@ export default {};
   }
   .nav-link {
     font-size: 15px;
+  }
+  .link-box{
+    padding-top:10px;
   }
   .nav-item p {
     color: white;
