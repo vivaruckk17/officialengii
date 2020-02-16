@@ -51,7 +51,7 @@ export default {};
   transition-duration: 0.3s;
   width: 100%;
 }
-#body :hover {
+#body img:hover {
   transform: scale(1.1);
   transition-duration: 0.3s;
   opacity: 0.8;

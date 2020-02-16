@@ -51,7 +51,7 @@ export default {};
   transition-duration: 0.3s;
   width: 100%;
 }
-#chie :hover {
+#chie img:hover {
   transform: scale(1.1); /*画像の拡大率*/
   transition-duration: 0.3s;
   opacity: 0.8; /* 小さくするほど暗くなります */
