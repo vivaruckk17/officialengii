@@ -252,21 +252,21 @@ export default {
 @media screen and (min-width: 480px) {
   .vision-text {
     position: absolute;
-    top: 20%;
+    top: 15%;
     text-align: center;
     width: 94%;
   }
   .vision-text p {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
   }
   .vision-subtext {
     position: absolute;
-    top: 40%;
+    top: 35%;
     text-align: center;
     width: 94%;
   }
   .vision-subtext p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -299,22 +299,22 @@ export default {
 @media screen and (min-width: 480px) {
   .keii-text {
     position: absolute;
-    top: 20%;
+    top: 15%;
     width: 94%;
     text-align: center;
   }
   .keii-text p {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
   }
 
   .keii-subtext {
     position: absolute;
-    top: 40%;
+    top: 35%;
     width: 94%;
     text-align: center;
   }
   .keii-subtext p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 @media screen and (max-width: 480px) {
