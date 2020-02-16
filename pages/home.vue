@@ -228,9 +228,18 @@ export default {
   position: absolute;
   top: 65%;
 }
+@media screen and (min-width: 480px) {
 .main-subtext p {
   font-size: 1.9vw;
 }
+}
+@media screen and (max-width: 480px) {
+  .main-subtext p {
+  font-size: 1.9vw;
+  font-weight: bold;
+}
+}
+
 .keiivision {
   margin-top: 6%;
   text-align: center;
