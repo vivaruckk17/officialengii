@@ -64,8 +64,8 @@
         <div class="col-10 boxarea">
           <h3 class="flow">サポートの流れ</h3>
           <div class="row">
-            <div class="col-1"></div>
-            <div class="col-10 center">
+            <div class="col-1 col-md-2"></div>
+            <div class="col-10 col-md-8 center">
               <div class="Registration enclosure">
                 <h4 class="h4-size">LINE公式サイト登録</h4>
                 <div class="row">
@@ -352,6 +352,10 @@ p {
 @media screen and (max-width: 480px) {
   .Description > p {
     font-size: 10px;
+  }
+  .flow{
+      border-left: solid 2px #00cdff;
+
   }
 }
 </style>
