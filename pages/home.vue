@@ -252,7 +252,7 @@ export default {
 @media screen and (min-width: 480px) {
   .vision-text {
     position: absolute;
-    top: 20%;
+    top: 15%;
     text-align: center;
     width: 94%;
   }
@@ -261,7 +261,7 @@ export default {
   }
   .vision-subtext {
     position: absolute;
-    top: 40%;
+    top: 35%;
     text-align: center;
     width: 94%;
   }
@@ -299,7 +299,7 @@ export default {
 @media screen and (min-width: 480px) {
   .keii-text {
     position: absolute;
-    top: 20%;
+    top: 15%;
     width: 94%;
     text-align: center;
   }
@@ -309,7 +309,7 @@ export default {
 
   .keii-subtext {
     position: absolute;
-    top: 40%;
+    top: 35%;
     width: 94%;
     text-align: center;
   }
