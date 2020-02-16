@@ -60,8 +60,8 @@
 
     <div class="container Figure">
       <div class="row flows">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 boxarea">
+        <div class="col-1"></div>
+        <div class="col-10 boxarea">
           <h3 class="flow">サポートの流れ</h3>
           <div class="row">
             <div class="col-2"></div>
