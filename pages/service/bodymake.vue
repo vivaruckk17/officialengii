@@ -64,12 +64,12 @@
         <div class="col-10 boxarea">
           <h3 class="flow">サポートの流れ</h3>
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 center">
+            <div class="col-1"></div>
+            <div class="col-10 center">
               <div class="Registration enclosure">
                 <h4 class="h4-size">LINE公式サイト登録</h4>
                 <div class="row">
-                  <div class="col-md-1"></div>
+                  <div class="col-1"></div>
                   <div class="col-md-10 left">
                     <p>サポートを始めるにあたってメッセージのやり取りをする際に必要になります</p>
                     <p>※質問等がある場合は「CONTACT」の「ボディーメイクサポート」からお願いします</p>
@@ -79,7 +79,7 @@
 
               <!-- 矢印 -->
               <div class="row">
-                <div class="col-1 offset-4">
+                <div class="col-auto offset-4">
                   <div class="triangle"></div>
                 </div>
               </div>
