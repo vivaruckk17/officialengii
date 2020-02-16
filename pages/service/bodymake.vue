@@ -163,7 +163,7 @@
         <img class="w-100" src="~assets/coming_soon.png" />
       </div>
     </div>
-      <engiifooter />
+    <engiifooter />
   </div>
 </template>
 
@@ -252,10 +252,6 @@ export default {
   background-color: #f9f9f9;
 }
 
-.boxarea > .flow {
-  border-left: solid 3px #00cdff;
-  color: #838383;
-}
 .center > p {
   font-size: 1.8vw;
   text-align: center;
@@ -348,14 +344,19 @@ p {
 .h4-size {
   font-size: 2.3vw;
 }
+@media screen and (min-width: 480px) {
+  .boxarea > .flow {
+    border-left: solid 3px #00cdff;
+    color: #838383;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .Description > p {
     font-size: 10px;
   }
-  .flow{
-      border-left: solid 2px #00cdff;
-
+  .flow {
+    border-left: solid 2px #00cdff;
   }
 }
 </style>
