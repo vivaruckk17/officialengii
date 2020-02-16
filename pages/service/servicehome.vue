@@ -44,6 +44,7 @@ export default {
 </script>
 
 <style>
+
 .blank2 {
   padding-top: 8%;
 }
