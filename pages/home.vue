@@ -21,7 +21,7 @@
         <div class="row main-subtext">
           <div class="col-2"></div>
           <div class="col-8">
-            <p class="text-white">私たちはあなたのなりたい姿を実現する"きっかけ"を作ります</p>
+            <p class="text-white">私たちはあなたのなりたい姿を実現する"きっかけ"を作りま</p>
           </div>
           <div class="col-2"></div>
         </div>
