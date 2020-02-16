@@ -52,7 +52,7 @@ export default {
   padding-top: 8%;
 }
 .servicetitle {
-  margin-top: 50px;
+  margin-top: 3%;
 }
 
 #coment_know,

@@ -60,12 +60,12 @@
 
     <div class="container Figure">
       <div class="row flows">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 boxarea">
+        <div class="col-1"></div>
+        <div class="col-10 boxarea">
           <h3 class="flow">サポートの流れ</h3>
           <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 center">
+            <div class="col-2"></div>
+            <div class="col-8 center">
               <div class="Registration enclosure">
                 <h4 class="h4-size">LINE公式サイト登録</h4>
                 <div class="row">
@@ -191,7 +191,7 @@ export default {
 }
 
 .servicetitle {
-  margin-top: 50px;
+  margin-top: 3%;
   padding-bottom: 50px;
 }
 
