@@ -64,12 +64,12 @@
         <div class="col-10 boxarea">
           <h3 class="flow">サポートの流れ</h3>
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 center">
+            <div class="col-1 col-md-2"></div>
+            <div class="col-10 col-md-8 center">
               <div class="Registration enclosure">
                 <h4 class="h4-size">LINE公式サイト登録</h4>
                 <div class="row">
-                  <div class="col-md-1"></div>
+                  <div class="col-1"></div>
                   <div class="col-md-10 left">
                     <p>サポートを始めるにあたってメッセージのやり取りをする際に必要になります</p>
                     <p>※質問等がある場合は「CONTACT」の「ボディーメイクサポート」からお願いします</p>
@@ -79,7 +79,7 @@
 
               <!-- 矢印 -->
               <div class="row">
-                <div class="col-1 offset-4">
+                <div class="col-auto offset-4">
                   <div class="triangle"></div>
                 </div>
               </div>
@@ -163,7 +163,7 @@
         <img class="w-100" src="~assets/coming_soon.png" />
       </div>
     </div>
-      <engiifooter />
+    <engiifooter />
   </div>
 </template>
 
@@ -252,10 +252,6 @@ export default {
   background-color: #f9f9f9;
 }
 
-.boxarea > .flow {
-  border-left: solid 3px #00cdff;
-  color: #838383;
-}
 .center > p {
   font-size: 1.8vw;
   text-align: center;
@@ -348,10 +344,19 @@ p {
 .h4-size {
   font-size: 2.3vw;
 }
+@media screen and (min-width: 480px) {
+  .boxarea > .flow {
+    border-left: solid 3px #00cdff;
+    color: #838383;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .Description > p {
     font-size: 10px;
+  }
+  .flow {
+    border-left: solid 2px #00cdff;
   }
 }
 </style>

@@ -16,7 +16,7 @@
             <img src="~assets/engii.png" width="50%" height="auto" class="img-fluid" />
           </nuxt-link>
         </div>
-        <div class="col-1"></div>
+        <div class="col-md-1"></div>
         <li class="nav-item col-auto homepad">
           <router-link to="/home">
             <p class="nav-link link-box">HOME</p>
@@ -66,7 +66,7 @@ export default {};
   #ham-menu {
     background-color: #fff; /*メニュー背景色*/
     box-sizing: border-box;
-    height: 25%;
+    height: 30%;
     padding: 0 10px; /*メニュー内部上下左右余白*/
     position: fixed;
     right: -100px; /*メニュー横幅①と合わせる*/
@@ -96,14 +96,14 @@ export default {};
     color: #333; /*アイコン（フォント）色*/
     cursor: pointer;
     display: block;
-    font-size: 30px; /*アイコン（フォント）サイズ*/
-    height: 30px; /*アイコン縦高さ*/
-    line-height: 30px; /*縦位置中央化*/
+    font-size: 50px; /*アイコン（フォント）サイズ*/
+    height: 50px; /*アイコン縦高さ*/
+    line-height: 50px; /*縦位置中央化*/
     position: fixed;
     right: 0;
     text-align: center;
     top: 0;
-    width: 30px; /*アイコン横幅*/
+    width: 50px; /*アイコン横幅*/
     transition: all 0.2s linear 0s; /*0.3s はアニメーションにかかる時間*/
     z-index: 1000;
   }
