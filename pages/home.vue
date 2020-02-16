@@ -43,8 +43,8 @@
             <p>
               新しい自分に出会えるキッカケをより多く作り
               <br>みんなのありたい姿、なりたい姿を叶える
-              <br>・人財の宝
-              <br>・ボディービルディングサポート
+            </p>
+            <p>・ボディービルディングサポート
               <br>・ワークインタビュー
               <br>・就職、進学、恋愛等の相談
             </p>
@@ -283,6 +283,7 @@ export default {
   }
   .vision-subtext p {
     font-size: 0.3rem;
+    font-weight: bold;
   }
 }
 .keiiback {
@@ -322,6 +323,7 @@ export default {
   }
   .keii-text p {
     font-size: 0.4rem;
+    font-weight: bold;
   }
 
   .keii-subtext {
@@ -332,6 +334,7 @@ export default {
   }
   .keii-subtext p {
     font-size: 0.3rem;
+    font-weight: bold;
   }
 }
 .readerback {
