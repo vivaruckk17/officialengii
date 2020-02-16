@@ -42,13 +42,11 @@
           <div class="vision-subtext text-white">
             <p>
               新しい自分に出会えるキッカケをより多く作り
-              <br />みんなのありたい姿、なりたい姿を叶える
-            </p>
-            <p>
-              ・人財の宝
+              <br>みんなのありたい姿、なりたい姿を叶える
+              <br>・人財の宝
               <br>・ボディービルディングサポート
               <br>・ワークインタビュー
-              <br>・何でも相談しちゃってよ
+              <br>・就職、進学、恋愛等の相談
             </p>
             <p>各サービスで皆様の力になれたらと考えています</p>
           </div>
@@ -275,6 +273,7 @@ export default {
   }
   .vision-text p {
     font-size: 0.4rem;
+    font-weight: bold;
   }
   .vision-subtext {
     position: absolute;
