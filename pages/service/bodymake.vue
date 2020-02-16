@@ -24,7 +24,7 @@
     <servicetitle class="servicetitle" />
     <div class="container">
       <div class="row">
-        <div class="col-5 offset-1">
+        <div class="col-md-5 col-5 offset-1">
           <h3 class="sup">サポート説明</h3>
           <div class="Description-pgarea">
             <img
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="col-5">
+        <div class="col-md-5 offset-1 col-10">
           <div class="Description">
             <p>
               【痩せたいけどダイエットが続かな...】
@@ -78,11 +78,7 @@
               </div>
 
               <!-- 矢印 -->
-              <div class="row">
-                <div class="col-auto offset-4">
-                  <div class="triangle"></div>
-                </div>
-              </div>
+              <triangle />
 
               <div class="counseling enclosure">
                 <h4 class="h4-size">カウンセリング</h4>
@@ -99,11 +95,7 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-1 offset-4">
-                  <div class="triangle"></div>
-                </div>
-              </div>
+              <triangle />
 
               <div class="goal enclosure">
                 <h4 class="h4-size">目標設定</h4>
@@ -119,11 +111,7 @@
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-1 offset-4">
-                  <div class="triangle"></div>
-                </div>
-              </div>
+              <triangle />
 
               <div class="support enclosure">
                 <h4 class="h4-size">サポート</h4>
@@ -171,19 +159,20 @@
 import servicetitle from "~/components/servicetitle.vue";
 import engiiheader from "~/components/engiiheader.vue";
 import engiifooter from "~/components/engiifooter.vue"; // footerをインポート
-
+import triangle from "~/components/triangle.vue";
 export default {
   components: {
     servicetitle,
     engiiheader,
-    engiifooter
+    engiifooter,
+    triangle
   }
 };
 </script>
 
 <style>
 * {
-  font-family:  'Noto Sans JP', sans-serif;
+  font-family: "游ゴシック Medium";
 }
 
 .blankb {
@@ -274,15 +263,6 @@ export default {
   border-radius: 10px;
 }
 /* 矢印 */
-.triangle {
-  position: center;
-  width: 0;
-  height: 0;
-  border-top: 30px solid #cecece;
-  border-right: 50px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-left: 50px solid transparent;
-}
 
 .application-blank {
   padding-top: 100px;
