@@ -325,7 +325,7 @@ export default {
     text-align: center;
   }
   .keii-text p {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
 
   .keii-subtext {
@@ -335,7 +335,7 @@ export default {
     text-align: center;
   }
   .keii-subtext p {
-    font-size: 0.4rem;
+    font-size: 0.3rem;
   }
 }
 .readerback {
