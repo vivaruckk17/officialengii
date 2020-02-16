@@ -277,7 +277,7 @@ export default {
     width: 84%;
   }
   .vision-text p {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
   .vision-subtext {
     position: absolute;
@@ -286,7 +286,7 @@ export default {
     width: 84%;
   }
   .vision-subtext p {
-    font-size: 0.4rem;
+    font-size: 0.3rem;
   }
 }
 .keiiback {
