@@ -55,6 +55,7 @@ export default {};
 <style>
 * {
   font-family:  'Noto Sans JP', sans-serif;
+  font-weight: bold;
 }
 @media screen and (max-width: 480px) {
   .engii-icon{
