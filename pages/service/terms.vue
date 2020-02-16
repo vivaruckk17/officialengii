@@ -134,7 +134,7 @@ export default {
 
 <style>
 *{
-    font-family: "游ゴシック Medium";
+    font-family:  'Noto Sans JP', sans-serif;
 }
 .application-title{
     border-left: solid 3px #00CDFF;
