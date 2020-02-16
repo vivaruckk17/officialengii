@@ -64,8 +64,8 @@
         <div class="col-lg-10 boxarea">
           <h3 class="flow">サポートの流れ</h3>
           <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 center">
+            <div class="col-2"></div>
+            <div class="col-8 center">
               <div class="Registration enclosure">
                 <h4 class="h4-size">LINE公式サイト登録</h4>
                 <div class="row">
