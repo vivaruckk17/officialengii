@@ -136,7 +136,7 @@
       </div>
     </div>
 
-    <div class="application-blank"></div>
+    
     <div class="container　application">
       <div class="row">
         <div class="col-8 offset-2 left-text">
@@ -264,7 +264,7 @@ export default {
 }
 /* 矢印 */
 
-.application-blank {
+.application {
   padding-top: 100px;
 }
 
