@@ -304,27 +304,27 @@ export default {
 }
 @media screen and (max-width: 530px) {
   .visionback img{
-    width:80%;
-    height:80%;
+    width:90%;
+    height:90%;
   }
   .vision-text {
     position: absolute;
-    top: 7%;
+    top: 15%;
     text-align: center;
     width: 95%;
   }
   .vision-text p {
     text-align: center;
-    font-size: calc(8px + 0.2vw);
+    font-size: calc(8px + 0.4vw);
   }
   .vision-subtext {
     position: absolute;
-    top: 23%;
+    top: 30%;
     text-align: center;
     width: 95%;
   }
   .vision-subtext p {
-    font-size:calc(8px + 0.1vw);
+    font-size:calc(8px + 0.3vw);
   }
 }
 .keiiback {
@@ -361,27 +361,27 @@ export default {
 }
 @media screen and (max-width: 530px) {
   .keiiback img{
-    width:80%;
-    height:80%;
+    width:90%;
+    height:90%;
   }
   .keii-text {
     position: absolute;
-    top: 7%;
+    top: 15%;
     width: 95%;
     text-align: center;
   }
   .keii-text p {
-    font-size: calc(8px + 0.2vw);
+    font-size: calc(8px + 0.4vw);
   }
 
   .keii-subtext {
     position: absolute;
-    top: 23%;
+    top: 30%;
     width: 95%;
     text-align: center;
   }
   .keii-subtext p {
-    font-size: calc(8px + 0.1vw);
+    font-size: calc(8px + 0.3vw);
   }
 }
 .readerback {
