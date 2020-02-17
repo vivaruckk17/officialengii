@@ -260,7 +260,7 @@ export default {
 @media screen and (max-width: 530px) {
   .main-subtext p {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
