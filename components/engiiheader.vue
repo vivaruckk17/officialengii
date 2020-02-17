@@ -169,6 +169,7 @@ export default {};
     position: relative;
     display: inline-block;
     text-decoration: none;
+    padding-bottom: 0;
   }
   .nav-link::after {
     position: absolute;
