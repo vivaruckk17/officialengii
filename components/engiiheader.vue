@@ -177,8 +177,9 @@ export default {};
     left: 0;
     content: "";
     width: 100%;
-    height: 2px;
-    background: #333;
+    height: 3px;
+    background: #00CDFF;
+  
     transform: scale(0, 1);
     transform-origin: right top;
     transition: transform 0.3s;
