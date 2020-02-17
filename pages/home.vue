@@ -319,7 +319,7 @@ export default {
   }
   .vision-subtext {
     position: absolute;
-    top: 25%;
+    top: 23%;
     text-align: center;
     width: 95%;
   }
@@ -376,7 +376,7 @@ export default {
 
   .keii-subtext {
     position: absolute;
-    top: 25%;
+    top: 23%;
     width: 95%;
     text-align: center;
   }
