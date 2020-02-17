@@ -164,12 +164,12 @@ export default {};
     display: none;
   }
 
-  a {
+  .nav-link {
     position: relative;
     display: inline-block;
     text-decoration: none;
   }
-  a::after {
+  .nav-link::after {
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -181,11 +181,11 @@ export default {};
     transform-origin: right top;
     transition: transform 0.3s;
   }
-  a:hover::after {
+  .nav-link:hover::after {
     transform-origin: left top;
     transform: scale(1, 1);
   }
-  a:hover {
+  .nav-link:hover {
     text-decoration: none;
     color: white;
   }

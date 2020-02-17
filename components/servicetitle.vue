@@ -63,4 +63,8 @@ export default {};
   border-radius: 20px;
   color: white;
 }
+
+a:hover{
+  text-decoration: none;
+}
 </style>

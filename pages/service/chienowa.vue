@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <samhedd />
+    <engiiheader />
     <div class="blankc"></div>
     <div class="container">
       <div class="pg">
@@ -33,12 +33,12 @@
 
 <script>
 import servicetitle from "~/components/servicetitle.vue";
-import samhedd from "~/components/samhedd.vue";
+import engiiheader from "~/components/engiiheader.vue";
 import engiifooter from "~/components/engiifooter.vue";
 export default {
   components: {
     servicetitle,
-    samhedd,
+    engiiheader,
     engiifooter
   }
 };

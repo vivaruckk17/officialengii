@@ -99,9 +99,9 @@
       </div>
       <hr />
       <!-- <homeservice class="hs" v-scroll="handleScroll3" /> -->
-      <workinteview class="wiv" v-scroll="handleScroll3" />
-      <bodymake v-bind:class="{sidein: isInScreen}" />
-      <chienowa />
+      <workinteview v-bind:class="{sideinleft: isInScreen}" />
+      <bodymake v-bind:class="{sideinright: isInScreen}" />
+      <chienowa v-bind:class="{sideinleft: isInScreen}" />
     </div>
     <div class="footer">
       <engiifooter />
@@ -148,7 +148,7 @@ export default {
   },
   computed: {
     isInScreen() {
-      if (this.scrollY > this.position + this.offset) {
+      if (this.scrollY > this.position + this.offset + 10) {
         return true;
       } else {
         return false;
@@ -424,15 +424,30 @@ export default {
   opacity: 0;
   transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
 }
-.sidein{ 
+.sideinleft{ 
   animation-name:sample01;
-  animation-duration:3s; 
+  animation-duration:5s; 
   animation-fill-mode: forwards;
 }
 @keyframes sample01 {
 0% {
  opacity: 1;
  transform: translateX(-2000px);
+}
+  50%{
+    opacity: 1;
+     transform: translateX(0);
+  }
+}
+.sideinright{ 
+  animation-name:sample02;
+  animation-duration:5s; 
+  animation-fill-mode: forwards;
+}
+@keyframes sample02 {
+0% {
+ opacity: 1;
+ transform: translateX(2000px);
 }
   50%{
     opacity: 1;
