@@ -17,8 +17,8 @@
           </nuxt-link>
         </div>
         <div class="col-md-1"></div>
-        <li class="nav-item col-md-auto homepad">
-          <router-link to="/home" class="nav-link link-box">HOME</router-link>
+        <li class="nav-item col-md-auto">
+          <router-link to="/home" class="nav-link link-box homepad">HOME</router-link>
         </li>
         <li class="nav-item col-md-auto">
           <router-link to="/service/servicehome" class="nav-link link-box">SERVICE</router-link>
@@ -51,7 +51,7 @@ export default {};
     margin-top: 10px;
   }
   .homepad {
-    margin-top: 15px;
+    margin-top: 50px;
   }
   #ham-menu {
     background-color: #fff; /*メニュー背景色*/
@@ -111,7 +111,6 @@ export default {};
   .nav-link {
     color: black;
     font-size: 20px;
-    margin: auto;
   }
   .eingii-logo {
     display: none;
@@ -120,7 +119,9 @@ export default {};
     padding-top: 0;
   }
   .nav-item {
-    padding: 0;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
