@@ -28,7 +28,7 @@
       </div>
       <hr />
       <div class="row keiivision" v-scroll="handleScroll">
-        <div class="visionback col-6">
+        <div class="visionback col-md-6 col-xs-12">
           <img
             src="~assets/indeximg/fesremake.png"
             width="100%"
@@ -52,7 +52,7 @@
             <p>各サービスで皆様の力になれたらと考えています</p>
           </div>
         </div>
-        <div class="keiiback col-6">
+        <div class="keiiback col-md-6 col-xs-12">
           <img
             src="~assets/indeximg/yakeiremake.jpg"
             width="100%"
