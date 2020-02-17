@@ -99,9 +99,9 @@
       </div>
       <hr />
       <!-- <homeservice class="hs" v-scroll="handleScroll3" /> -->
-      <workinteview v-bind:class="{sideinleft: isInScreen}" />
-      <bodymake v-bind:class="{sideinright: isInScreen}" />
-      <chienowa v-bind:class="{sideinleft: isInScreen}" />
+      <workinteview v-bind:class="{sideinleft1: isInScreen}" />
+      <bodymake v-bind:class="{sideinleft2: isInScreen}" />
+      <chienowa v-bind:class="{sideinleft3: isInScreen}" />
     </div>
     <div class="footer">
       <engiifooter />
@@ -148,7 +148,7 @@ export default {
   },
   computed: {
     isInScreen() {
-      if (this.scrollY > this.position + this.offset + 10) {
+      if (this.scrollY > this.position + this.offset + 50) {
         return true;
       } else {
         return false;
@@ -401,7 +401,7 @@ export default {
   opacity: 0;
   transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
 }
-.sideinleft{ 
+.sideinleft1{ 
   animation-name:sample01;
   animation-duration:5s; 
   animation-fill-mode: forwards;
@@ -416,15 +416,30 @@ export default {
      transform: translateX(0);
   }
 }
-.sideinright{ 
+.sideinleft2{ 
   animation-name:sample02;
-  animation-duration:5s; 
+  animation-duration:6s; 
   animation-fill-mode: forwards;
 }
 @keyframes sample02 {
 0% {
  opacity: 1;
- transform: translateX(2000px);
+ transform: translateX(-2000px);
+}
+  50%{
+    opacity: 1;
+     transform: translateX(0);
+  }
+}
+.sideinleft3{ 
+  animation-name:sample02;
+  animation-duration:7s; 
+  animation-fill-mode: forwards;
+}
+@keyframes sample02 {
+0% {
+ opacity: 1;
+ transform: translateX(-2000px);
 }
   50%{
     opacity: 1;
