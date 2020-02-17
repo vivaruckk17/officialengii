@@ -31,8 +31,6 @@
         <div class="visionback col-md-6 col-xs-12">
           <img
             src="~assets/indeximg/fesremake.png"
-            width="100%"
-            height="100%"
             alt
             class="img-fluid vision-oya"
           />
@@ -55,8 +53,6 @@
         <div class="keiiback col-md-6 col-xs-12">
           <img
             src="~assets/indeximg/yakeiremake.jpg"
-            width="100%"
-            height="100%"
             alt
             class="img-fluid"
           />
@@ -281,6 +277,10 @@ export default {
 }
 
 @media screen and (min-width: 530px) {
+  .visionback img{
+    width:100%;
+    height:100%;
+  }
   .vision-text {
     position: absolute;
     top: 15%;
@@ -301,6 +301,10 @@ export default {
   }
 }
 @media screen and (max-width: 530px) {
+  .visionback img{
+    width:80%;
+    height:80%;
+  }
   .vision-text {
     position: absolute;
     top: 25px;
@@ -330,6 +334,10 @@ export default {
   border-radius: 5% 5% 5% 5%;
 }
 @media screen and (min-width: 530px) {
+  .keiiback img{
+    width:100%;
+    height:100%;
+  }
   .keii-text {
     position: absolute;
     top: 15%;
@@ -351,6 +359,10 @@ export default {
   }
 }
 @media screen and (max-width: 530px) {
+  .keiiback img{
+    width:80%;
+    height:80%;
+  }
   .keii-text {
     position: absolute;
     top: 25px;
