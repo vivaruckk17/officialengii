@@ -202,29 +202,6 @@ export default {
         return window.scrollY > 830;
       }
     },
-    handleScroll3: function(evt, el) {
-      console.log(window.scrollY);
-      console.log(window.outerWidth);
-
-      if (window.outerWidth < 720) {
-        if (window.scrollY > 130) {
-          el.setAttribute(
-            "style",
-            "opacity: 1; transform: translate3d(0, -10px, 0)"
-          );
-        }
-        return window.scrollY > 135;
-      }
-      if (window.outerWidth > 720) {
-        if (window.scrollY > 1300) {
-          el.setAttribute(
-            "style",
-            "opacity: 1; transform: translate3d(0, -10px, 0)"
-          );
-        }
-        return window.scrollY > 1350;
-      }
-    },
     onScroll() {
       this.scrollY = window.pageYOffset;
     },
