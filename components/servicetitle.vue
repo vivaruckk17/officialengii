@@ -30,7 +30,7 @@ export default {};
   font-family:  'Noto Sans JP', sans-serif;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 530px) {
   #border-top {
     border-top: solid 5px #00cdff;
     text-align: center;
@@ -39,7 +39,7 @@ export default {};
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   #border-top {
     border-top: solid 2px #00cdff;
     text-align: center;

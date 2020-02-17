@@ -255,12 +255,12 @@ export default {
   position: absolute;
   top: 65%;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 530px) {
   .main-subtext p {
     font-size: 1.9vw;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   .main-subtext p {
     font-size: 1.9vw;
     font-weight: bold;
@@ -280,7 +280,7 @@ export default {
   border-radius: 5% 5% 5% 5%;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 530px) {
   .vision-text {
     position: absolute;
     top: 15%;
@@ -300,10 +300,10 @@ export default {
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   .vision-text {
     position: absolute;
-    top: 10px;
+    top: 25px;
     text-align: center;
     width: 84%;
   }
@@ -313,7 +313,7 @@ export default {
   }
   .vision-subtext {
     position: absolute;
-    top: 30px;
+    top: 45px;
     text-align: center;
     width: 84%;
   }
@@ -329,7 +329,7 @@ export default {
 .keiiback img {
   border-radius: 5% 5% 5% 5%;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 530px) {
   .keii-text {
     position: absolute;
     top: 15%;
@@ -350,10 +350,10 @@ export default {
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   .keii-text {
     position: absolute;
-    top: 10px;
+    top: 25px;
     width: 84%;
     text-align: center;
   }
@@ -364,7 +364,7 @@ export default {
 
   .keii-subtext {
     position: absolute;
-    top: 30px;
+    top: 45px;
     width: 84%;
     text-align: center;
   }

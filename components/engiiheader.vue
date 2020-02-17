@@ -46,7 +46,7 @@ export default {};
 * {
   font-family: "游ゴシック Medium";
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   .engii-icon {
     margin-top: 10px;
   }
@@ -125,7 +125,7 @@ export default {};
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 530px) {
   .header-contaner {
     width: 100%;
     position: fixed;
