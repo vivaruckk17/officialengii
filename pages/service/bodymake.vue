@@ -268,13 +268,7 @@ export default {
   padding-top: 100px;
 }
 
-.Figure {
-  padding-top: 50px;
-}
 
-.flows {
-  padding-top: 80px;
-}
 
 .left {
   text-align: left;
@@ -329,6 +323,10 @@ p {
     border-left: solid 3px #00cdff;
     color: #838383;
   }
+
+  .flows {
+  padding-top: 80px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -338,5 +336,9 @@ p {
   .flow {
     border-left: solid 2px #00cdff;
   }
+
+  .flows {
+  padding-top: 50px;
+}
 }
 </style>
