@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <engiiheader />
+    <samhed />
     <div class="blankb"></div>
     <div class="container">
       <div class="pg">
@@ -157,13 +157,13 @@
 
 <script>
 import servicetitle from "~/components/servicetitle.vue";
-import engiiheader from "~/components/engiiheader.vue";
+import samhed from "~/components/samhed.vue";
 import engiifooter from "~/components/engiifooter.vue"; // footerをインポート
 import triangle from "~/components/triangle.vue";
 export default {
   components: {
     servicetitle,
-    engiiheader,
+    samhed,
     engiifooter,
     triangle
   }

@@ -17,27 +17,27 @@
           </nuxt-link>
         </div>
         <div class="col-md-1"></div>
-        <li class="nav-item col-auto homepad">
+        <li class="nav-item col-md-auto homepad">
           <router-link to="/home">
             <p class="nav-link link-box">HOME</p>
           </router-link>
         </li>
-        <li class="nav-item col-auto">
+        <li class="nav-item col-md-auto">
           <router-link to="/service/servicehome">
             <p class="nav-link link-box">SERVICE</p>
           </router-link>
         </li>
-        <li class="nav-item col-auto">
+        <li class="nav-item col-md-auto">
           <router-link to="/blog">
             <p class="nav-link link-box">BLOG</p>
           </router-link>
         </li>
-        <li class="nav-item col-auto">
+        <li class="nav-item col-md-auto">
           <router-link to="/news">
             <p class="nav-link link-box">NEWS</p>
           </router-link>
         </li>
-        <li class="nav-item col-auto">
+        <li class="nav-item col-md-auto">
           <router-link to="/contact">
             <p class="nav-link link-box">CONTACT</p>
           </router-link>
@@ -54,8 +54,7 @@ export default {};
     
 <style>
 * {
-  font-family:  'Noto Sans JP', sans-serif;
-  font-weight: bold;
+  font-family: "游ゴシック Medium";
 }
 @media screen and (max-width: 480px) {
   .engii-icon{
@@ -67,13 +66,13 @@ export default {};
   #ham-menu {
     background-color: #fff; /*メニュー背景色*/
     box-sizing: border-box;
-    height: 30%;
+    height: 100%;
     padding: 0 10px; /*メニュー内部上下左右余白*/
     position: fixed;
-    right: -100px; /*メニュー横幅①と合わせる*/
+    right: -200px; /*メニュー横幅①と合わせる*/
     top: 0;
     transition: transform 0.2s linear 0s; /*0.3s は変化するのにかかる時間*/
-    width: 100px; /*メニュー横幅①*/
+    width: 200px; /*メニュー横幅①*/
     z-index: 1000;
     border-radius: 0 0 0 20px;
   }
@@ -113,7 +112,7 @@ export default {};
   }
   #menu-cb:checked ~ #ham-menu,
   #menu-cb:checked ~ #menu-icon {
-    transform: translate(-100px); /*メニュー本体横幅 width と合わせる*/
+    transform: translate(-200px); /*メニュー本体横幅 width と合わせる*/
   }
   #menu-cb:checked ~ #menu-background {
     opacity: 0.5;
@@ -121,8 +120,8 @@ export default {};
   }
   .nav-link {
     color: black;
-    font-size: 10px;
-    margin: 0;
+    font-size: 20px;
+    margin: auto;
   }
   .eingii-logo {
     display: none;
@@ -153,7 +152,7 @@ export default {};
     padding-top: 3px;
   }
   .nav-link {
-    font-size: 20px;
+    font-size: 18px;
   }
   .link-box{
     padding-top:10px;

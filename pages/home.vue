@@ -42,11 +42,12 @@
           <div class="vision-subtext text-white">
             <p>
               新しい自分に出会えるキッカケをより多く作り
-              <br>みんなのありたい姿、なりたい姿を叶える
+              <br />みんなのありたい姿、なりたい姿を叶える
             </p>
-            <p>・ボディービルディングサポート
-              <br>・ワークインタビュー
-              <br>・就職、進学、恋愛等の相談
+            <p>
+              ・ボディービルディングサポート
+              <br />・ワークインタビュー
+              <br />・就職、進学、恋愛等の相談
             </p>
             <p>各サービスで皆様の力になれたらと考えています</p>
           </div>
@@ -65,14 +66,14 @@
           <div class="keii-subtext text-white">
             <p>
               「ENGII」
-              <br>新しい出会いや発見が自らにとって良いものだった時、
-              <br>その先の人生は大きく変わる気がする... 
-              <br>“縁起のいい出会いや発見”を提供したい
+              <br />新しい出会いや発見が自らにとって良いものだった時、
+              <br />その先の人生は大きく変わる気がする...
+              <br />“縁起のいい出会いや発見”を提供したい
             </p>
             <p>
               私たちENGIIは
-              <br>私達の今までの経験から「あったらいいな、できたらいいな」
-              <br>を形にして、皆様の力になれたらと思っています。
+              <br />私達の今までの経験から「あったらいいな、できたらいいな」
+              <br />を形にして、皆様の力になれたらと思っています。
             </p>
           </div>
         </div>
@@ -88,19 +89,18 @@
             class="img-fluid"
           />
           <div class="row reader-text text-white">
-          <div class="col-5"></div>
-          <div class="col-5">
+            <div class="col-5"></div>
+            <div class="col-5">
               <p class="text-white">リーダーメッセージ</p>
+            </div>
+            <div class="col-2"></div>
           </div>
-          <div class="col-2"></div>
-        </div>
         </router-link>
-        
       </div>
-      <hr>
-     <!-- <homeservice class="hs" v-scroll="handleScroll3" /> -->
+      <hr />
+      <!-- <homeservice class="hs" v-scroll="handleScroll3" /> -->
       <workinteview class="wiv" v-scroll="handleScroll3" />
-      <bodymake />
+      <bodymake v-bind:class="{sidein: isInScreen}" />
       <chienowa />
     </div>
     <div class="footer">
@@ -114,10 +114,9 @@ import engiiheader from "@/components/engiiheader.vue"; // headerをインポー
 import engiifooter from "@/components/engiifooter.vue"; // footerをインポート
 import homeservice from "@/components/homeservice.vue";
 import workinteview from "@/components/service/workinteview.vue";
-import bodymake from "@/components/service/bodymake.vue"; 
+import bodymake from "@/components/service/bodymake.vue";
 import chienowa from "@/components/service/chienowa.vue";
 export default {
-  
   components: {
     engiiheader,
     engiifooter,
@@ -126,6 +125,37 @@ export default {
     bodymake,
     chienowa
   },
+  props: {
+    offset: {
+      type: Number,
+      default: 0
+    }
+  },
+  data() {
+    return {
+      scrollY: 0,
+      height: 0,
+      position: 0
+    };
+  },
+  mounted() {
+    window.addEventListener("scroll", this.onScroll);
+    window.addEventListener("resize", this.onResize);
+    window.addEventListener("load", () => {
+      this.onScroll();
+      this.onResize();
+    });
+  },
+  computed: {
+    isInScreen() {
+      if (this.scrollY > this.position + this.offset) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  },
+
   methods: {
     handleScroll: function(evt, el) {
       console.log(window.scrollY);
@@ -194,16 +224,41 @@ export default {
         }
         return window.scrollY > 1350;
       }
+    },
+    onScroll() {
+      this.scrollY = window.pageYOffset;
+    },
+    onResize() {
+      this.height = document.documentElement.clientHeight;
+    },
+    getPosition() {
+      if (this.$el) {
+        return (
+          this.$el.getBoundingClientRect().top + this.scrollY - this.height
+        );
+      } else {
+        return 0;
+      }
     }
   }
 };
+
+</script>
+
+
+
+
+
+
+
+
 </script>
 
 <style>
 * {
   margin-left: 0%;
   margin-right: 0%;
-  font-family:  'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .blank {
   padding-top: 8%;
@@ -229,15 +284,15 @@ export default {
   top: 65%;
 }
 @media screen and (min-width: 480px) {
-.main-subtext p {
-  font-size: 1.9vw;
-}
+  .main-subtext p {
+    font-size: 1.9vw;
+  }
 }
 @media screen and (max-width: 480px) {
   .main-subtext p {
-  font-size: 1.9vw;
-  font-weight: bold;
-}
+    font-size: 1.9vw;
+    font-weight: bold;
+  }
 }
 
 .keiivision {
@@ -261,7 +316,7 @@ export default {
     width: 94%;
   }
   .vision-text p {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
   .vision-subtext {
     position: absolute;
@@ -310,7 +365,7 @@ export default {
     text-align: center;
   }
   .keii-text p {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 
   .keii-subtext {
@@ -373,5 +428,20 @@ export default {
 .wiv {
   opacity: 0;
   transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
+}
+.sidein{ 
+  animation-name:sample01;
+  animation-duration:3s; 
+  animation-fill-mode: forwards;
+}
+@keyframes sample01 {
+0% {
+ opacity: 1;
+ transform: translateX(-2000px);
+}
+  50%{
+    opacity: 1;
+     transform: translateX(0);
+  }
 }
 </style>
