@@ -19,11 +19,11 @@
           <div class="col-4"></div>
         </div>
         <div class="row main-subtext">
-          <div class="col-2"></div>
-          <div class="col-8 col-md-auto">
+          <div class="col-md-2 col-xs-2"></div>
+          <div class="col-md-8 col-xs-8">
             <p class="text-white">私たちはあなたのなりたい姿を実現する"きっかけ"を作ります</p>
           </div>
-          <div class="col-2"></div>
+          <div class="col-md-2 col-xs-2"></div>
         </div>
       </div>
       <hr />
@@ -253,12 +253,14 @@ export default {
 }
 @media screen and (min-width: 530px) {
   .main-subtext p {
-    font-size: 1.9vw;
+    text-align: right;
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 530px) {
   .main-subtext p {
-    font-size: 1.9vw;
+    text-align: center;
+    font-size: 0.9rem;
     font-weight: bold;
   }
 }
@@ -309,20 +311,21 @@ export default {
     position: absolute;
     top: 25px;
     text-align: center;
-    width: 84%;
+    width: 95%;
   }
   .vision-text p {
-    font-size: 0.4rem;
+    text-align: center;
+    font-size: 0.8rem;
     font-weight: bold;
   }
   .vision-subtext {
     position: absolute;
-    top: 45px;
+    top: 65px;
     text-align: center;
-    width: 84%;
+    width: 95%;
   }
   .vision-subtext p {
-    font-size: 0.3rem;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
@@ -366,22 +369,22 @@ export default {
   .keii-text {
     position: absolute;
     top: 25px;
-    width: 84%;
+    width: 95%;
     text-align: center;
   }
   .keii-text p {
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     font-weight: bold;
   }
 
   .keii-subtext {
     position: absolute;
-    top: 45px;
-    width: 84%;
+    top: 65px;
+    width: 95%;
     text-align: center;
   }
   .keii-subtext p {
-    font-size: 0.3rem;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
