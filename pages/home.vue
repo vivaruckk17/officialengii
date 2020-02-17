@@ -249,11 +249,6 @@ export default {
 
 
 
-
-
-
-</script>
-
 <style>
 * {
   margin-left: 0%;

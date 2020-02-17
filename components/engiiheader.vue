@@ -2,10 +2,10 @@
   <!--EnGiiロゴが入るクラス-->
   <div class="header-contaner rgba">
     <div class="row">
-        <div class="offset-4 col-7 engii-icon">
-          <img src="~assets/engii.png" width="50%" height="200px" class="img-fluid" />
-        </div>
+      <div class="offset-4 col-7 engii-icon">
+        <img src="~assets/engii.png" width="50%" height="200px" class="img-fluid" />
       </div>
+    </div>
     <input id="menu-cb" type="checkbox" value="off" />
     <label id="menu-icon" for="menu-cb">≡</label>
     <label id="menu-background" for="menu-cb"></label>
@@ -18,29 +18,19 @@
         </div>
         <div class="col-md-1"></div>
         <li class="nav-item col-md-auto homepad">
-          <router-link to="/home">
-            <p class="nav-link link-box">HOME</p>
-          </router-link>
+          <router-link to="/home" class="nav-link link-box">HOME</router-link>
         </li>
         <li class="nav-item col-md-auto">
-          <router-link to="/service/servicehome">
-            <p class="nav-link link-box">SERVICE</p>
-          </router-link>
+          <router-link to="/service/servicehome" class="nav-link link-box">SERVICE</router-link>
         </li>
         <li class="nav-item col-md-auto">
-          <router-link to="/blog">
-            <p class="nav-link link-box">BLOG</p>
-          </router-link>
+          <router-link to="/blog" class="nav-link link-box">BLOG</router-link>
         </li>
         <li class="nav-item col-md-auto">
-          <router-link to="/news">
-            <p class="nav-link link-box">NEWS</p>
-          </router-link>
+          <router-link to="/news" class="nav-link link-box">NEWS</router-link>
         </li>
         <li class="nav-item col-md-auto">
-          <router-link to="/contact">
-            <p class="nav-link link-box">CONTACT</p>
-          </router-link>
+          <router-link to="/contact" class="nav-link link-box">CONTACT</router-link>
         </li>
         <div class="col-1"></div>
       </ul>
@@ -57,10 +47,10 @@ export default {};
   font-family: "游ゴシック Medium";
 }
 @media screen and (max-width: 480px) {
-  .engii-icon{
+  .engii-icon {
     margin-top: 10px;
   }
-  .homepad{
+  .homepad {
     margin-top: 15px;
   }
   #ham-menu {
@@ -129,7 +119,7 @@ export default {};
   .nav {
     padding-top: 0;
   }
-  .nav-item{
+  .nav-item {
     padding: 0;
   }
 }
@@ -153,9 +143,13 @@ export default {};
   }
   .nav-link {
     font-size: 18px;
+    color: white;
   }
-  .link-box{
-    padding-top:10px;
+  .nav-link:hover {
+    text-decoration: none;
+  }
+  .link-box {
+    padding-top: 10px;
   }
   .nav-item p {
     color: white;
@@ -168,6 +162,32 @@ export default {};
   }
   #menu-icon {
     display: none;
+  }
+
+  a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform 0.3s;
+  }
+  a:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
   }
 }
 </style>
