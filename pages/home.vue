@@ -455,11 +455,11 @@ export default {
   }
 }
 .sideinleft3{ 
-  animation-name:sample02;
+  animation-name:sample03;
   animation-duration:7s; 
   animation-fill-mode: forwards;
 }
-@keyframes sample02 {
+@keyframes sample03 {
 0% {
  opacity: 1;
  transform: translateX(-2000px);
