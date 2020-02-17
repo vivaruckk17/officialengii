@@ -309,24 +309,22 @@ export default {
   }
   .vision-text {
     position: absolute;
-    top: 25px;
+    top: 7%;
     text-align: center;
     width: 95%;
   }
   .vision-text p {
     text-align: center;
-    font-size: 0.8rem;
-    font-weight: bold;
+    font-size: calc(8px + 0.2vw);
   }
   .vision-subtext {
     position: absolute;
-    top: 65px;
+    top: 25%;
     text-align: center;
     width: 95%;
   }
   .vision-subtext p {
-    font-size: 0.7rem;
-    font-weight: bold;
+    font-size:calc(8px + 0.1vw);
   }
 }
 .keiiback {
@@ -368,24 +366,22 @@ export default {
   }
   .keii-text {
     position: absolute;
-    top: 25px;
+    top: 7%;
     width: 95%;
     text-align: center;
   }
   .keii-text p {
-    font-size: 0.8rem;
-    font-weight: bold;
+    font-size: calc(8px + 0.2vw);
   }
 
   .keii-subtext {
     position: absolute;
-    top: 65px;
+    top: 25%;
     width: 95%;
     text-align: center;
   }
   .keii-subtext p {
-    font-size: 0.7rem;
-    font-weight: bold;
+    font-size: calc(8px + 0.1vw);
   }
 }
 .readerback {
