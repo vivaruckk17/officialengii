@@ -64,7 +64,6 @@ export default {};
     transition: transform 0.2s linear 0s; /*0.3s は変化するのにかかる時間*/
     width: 200px; /*メニュー横幅①*/
     z-index: 1000;
-    border-radius: 0 0 0 20px;
   }
 
   #menu-background {
