@@ -251,13 +251,13 @@ export default {
   position: absolute;
   top: 65%;
 }
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 767px) {
   .main-subtext p {
     text-align: right;
     font-size: 1.3rem;
   }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 767px) {
   .main-subtext p {
     text-align: center;
     font-size: 0.7rem;
@@ -278,7 +278,7 @@ export default {
   border-radius: 5% 5% 5% 5%;
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 767px) {
   .visionback img{
     width:100%;
     height:100%;
@@ -302,7 +302,7 @@ export default {
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 767px) {
   .visionback img{
     width:90%;
     height:90%;
@@ -334,7 +334,7 @@ export default {
 .keiiback img {
   border-radius: 5% 5% 5% 5%;
 }
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 767px) {
   .keiiback img{
     width:100%;
     height:100%;
@@ -359,7 +359,7 @@ export default {
     font-size: 0.9rem;
   }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 767px) {
   .keiiback img{
     width:90%;
     height:90%;
