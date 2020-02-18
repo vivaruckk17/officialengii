@@ -5,8 +5,10 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/service/bodymake/bodymakeTop.jpg"
+          src="~assets/indeximg/bodmeremake.png"
           alt="ボディメイク"
+          width="90%"
+          height="90%"
           class="img-fluid"
         />
         <div class="row">
@@ -210,6 +212,7 @@ export default {
 
 .pg {
   position: relative;
+  text-align: center;
 }
 
 .bodymake-pg {

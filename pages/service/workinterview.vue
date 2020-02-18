@@ -5,8 +5,10 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/service/workInterview/workinterviewTop.jpg"
+          src="~assets/indeximg/wiremake.png"
           alt="ワークインタビュー"
+          width="90%"
+          height="90%"
           class="img-fluid"
         />
         <div class="row">

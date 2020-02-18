@@ -5,8 +5,9 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/service/chienowa/chienowaTop.jpg"
-          width="100%"
+          src="~assets/indeximg/enchiremake.png"
+          width="90%"
+          height="90%"
           class="img-fluid"
           alt="知恵の輪"
         />
