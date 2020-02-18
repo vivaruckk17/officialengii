@@ -52,7 +52,7 @@
         </div>
         <div class="keiiback col-md-6 col-xs-12">
           <img
-            src="~assets/indeximg/yakeiremake.jpg"
+            src="~assets/indeximg/background.jpg"
             alt
             class="img-fluid"
           />
