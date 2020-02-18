@@ -5,9 +5,9 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/service/bodymake/bodymake.jpg"
+          src="~assets/service/bodymake/bodymakeTop.jpg"
           width="100%"
-          height="656px"
+          alt="bodymake"
           class="img-fluid"
         />
         <div class="row">
