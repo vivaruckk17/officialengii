@@ -318,7 +318,7 @@ p {
 .h4-size {
   font-size: 2.3vw;
 }
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 767px) {
   .boxarea > .flow {
     border-left: solid 3px #00cdff;
     color: #838383;
@@ -329,7 +329,7 @@ p {
 }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 767px) {
   .Description > p {
     font-size: 10px;
   }
