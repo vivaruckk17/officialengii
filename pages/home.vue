@@ -4,7 +4,7 @@
     <div class="blank"></div>
     <div class="container">
       <div class="mainback">
-        <img src="~assets/indeximg/homeTop.png" width="100%" height="656px" alt class="img-fluid" />
+        <img src="~assets/indeximg/homeTop.jpg" width="100%" height="656px" alt class="img-fluid" />
         <div class="row main-text">
           <div class="col-1"></div>
           <div class="col-7">
@@ -78,7 +78,7 @@
       <div class="readerback" v-scroll="handleScroll2">
         <router-link to="/homeLeader">
           <img
-            src="~assets/indeximg/leadermessageresize.png"
+            src="~assets/indeximg/leadermessage.jpg"
             width="87%"
             height="100%"
             alt
