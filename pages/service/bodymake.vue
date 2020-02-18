@@ -6,7 +6,6 @@
       <div class="pg">
         <img
           src="~assets/service/bodymake/bodymakeTop.jpg"
-          width="100%"
           alt="ボディメイク"
           class="img-fluid"
         />
@@ -136,7 +135,6 @@
       </div>
     </div>
 
-    
     <div class="container　application">
       <div class="row">
         <div class="col-8 offset-2 left-text">
@@ -268,8 +266,6 @@ export default {
   padding-top: 100px;
 }
 
-
-
 .left {
   text-align: left;
 }
@@ -325,8 +321,8 @@ p {
   }
 
   .flows {
-  padding-top: 80px;
-}
+    padding-top: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -338,7 +334,7 @@ p {
   }
 
   .flows {
-  padding-top: 50px;
-}
+    padding-top: 50px;
+  }
 }
 </style>

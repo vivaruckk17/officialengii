@@ -5,10 +5,8 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/service/workInterview/room.png"
-          width="100%"
-          height="656px"
-          alt
+          src="~assets/service/workInterview/workinterviewTop.jpg"
+          alt="ワークインタビュー"
           class="img-fluid"
         />
         <div class="row">
