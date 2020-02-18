@@ -30,7 +30,7 @@
       <div class="row keiivision" v-scroll="handleScroll">
         <div class="visionback col-md-6 col-xs-12">
           <img
-            src="~assets/indeximg/fesremake.png"
+            src="~assets/indeximg/fesremake.jpg"
             alt
             class="img-fluid vision-oya"
           />
