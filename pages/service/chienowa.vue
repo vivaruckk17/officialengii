@@ -5,10 +5,10 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/service/chienowa/chienowa.jpg"
+          src="~assets/service/chienowa/chienowaTop.jpg"
           width="100%"
-          height="656px"
           class="img-fluid"
+          alt="知恵の輪"
         />
         <div class="row chie-know">
           <div class="offset-1 col-5 know-text text-white">

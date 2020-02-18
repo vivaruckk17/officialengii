@@ -7,7 +7,7 @@
         <img
           src="~assets/service/bodymake/bodymakeTop.jpg"
           width="100%"
-          alt="bodymake"
+          alt="ボディメイク"
           class="img-fluid"
         />
         <div class="row">
