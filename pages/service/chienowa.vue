@@ -67,6 +67,7 @@ export default {
 }
 .pg {
   position: relative;
+  text-align: center;
 }
 .pg img {
   border-radius: 20px;

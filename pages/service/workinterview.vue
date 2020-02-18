@@ -101,6 +101,7 @@ export default {
 
 .pg {
   position: relative;
+  text-align: center;
 }
 
 .pg img {
