@@ -11,8 +11,8 @@
             class="img-fluid d-block mx-auto"
           />
           <div class="row body-texts text-white">
-            <div class="col-5 offset-5">
-              <p class="text-white">ボディメイクサポート</p>
+            <div class="col-5 offset-5 ">
+              <p class="text-white body-texts-back">ボディメイクサポート</p>
             </div>
             <div class="col-2"></div>
           </div>
@@ -47,7 +47,9 @@ export default {};
   margin-right: auto;
   border-radius: 20px;
 }
-
+.body-texts-back{
+  background-color: rgba(204, 204, 204, 0.404);
+}
 #body img {
   border-radius: 20px;
   display: block;
@@ -69,7 +71,6 @@ export default {};
   font-size: 2vw;
   font-family: "游ゴシック Medium";
   color: white;
-  border-bottom: solid 1px white;
 }
 
 .body-texts {
@@ -79,6 +80,5 @@ export default {};
 }
 .body-texts p {
   font-size: 2vw;
-  border-bottom: solid 1px;
 }
 </style>

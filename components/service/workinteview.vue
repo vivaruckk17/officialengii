@@ -12,7 +12,7 @@
           />
           <div class="row work-texts">
             <div class="col-5 offset-5">
-              <p class="text-white">ワークインタビュー</p>
+              <p class="text-white work-texts-back">ワークインタビュー</p>
             </div>
           </div>
         </router-link>
@@ -65,9 +65,10 @@ export default {};
   font-size: 2vw;
   font-family: "游ゴシック Medium";
   color: white;
-  border-bottom: solid 1px white;
 }
-
+.work-texts-back{
+  background-color: rgba(204, 204, 204, 0.404);
+}
 .work-texts {
   width: 100%;
   position: absolute;
@@ -75,6 +76,5 @@ export default {};
 }
 .work-texts p {
   font-size: 2vw;
-  border-bottom: solid 1px;
 }
 </style>

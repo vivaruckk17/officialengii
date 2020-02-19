@@ -12,7 +12,7 @@
           />
           <div class="row chie-texts text-white">
             <div class="col-5 offset-5">
-              <p class="text-white">知恵の輪</p>
+              <p class="text-white chie-texts-back">知恵の輪</p>
             </div>
           </div>
         </router-link>
@@ -69,9 +69,10 @@ export default {};
   font-size: 2vw;
   font-family: "游ゴシック Medium";
   color: white;
-  border-bottom: solid 1px white;
 }
-
+.chie-texts-back{
+  background-color: rgba(204, 204, 204, 0.404);
+}
 .chie-texts {
   width: 100%;
   position: absolute;
@@ -80,6 +81,5 @@ export default {};
 
 .chie-texts p {
   font-size: 2vw;
-  border-bottom: solid 1px;
 }
 </style>
