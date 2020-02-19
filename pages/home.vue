@@ -409,7 +409,7 @@ export default {
 }
 .reader-text p {
   font-size: 2vw;
-  border-bottom: solid 1px;
+  background-color: rgba(204, 204, 204, 0.404);
 }
 .footer {
   margin-top: 5%;
