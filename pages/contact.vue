@@ -33,9 +33,10 @@
           </div>
           <div class="genre-select">
             <select name="select">
-              <option value="ボディメイクサポート">ワークインタビュー</option>
+              <option value="ワークインタビュー">ワークインタビュー</option>
               <option value="ボディメイクサポート">ボディメイクサポート</option>
-              <option value="ボディメイクサポート">EnGii知恵の輪</option>
+              <option value="EnGii知恵の輪">EnGii知恵の輪</option>
+              <option value="その他">その他</option>
             </select>
           </div>
         </div>
@@ -77,6 +78,13 @@
         <div class="form-box sex">
           <div class="title-box">
             <p>性別</p>
+          </div>
+            <div class="sex-select">
+            <select name="select">
+              <option value="male">男性</option>
+              <option value="female">女性</option>
+              <option value="その他">その他</option>
+            </select>
           </div>
         </div>
         <hr>
@@ -167,6 +175,9 @@ html{
   width:100%;
   padding-left:2rem;
   padding-right:2rem;
+}
+.genre-select{
+  margin-top: 1rem;
 }
 .faq-form{
   border-left:thick solid #00CDFF;
