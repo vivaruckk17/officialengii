@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="fac-content-form-box">
-            <input type="text" name="faq-form">
+            <textarea type="text" name="faq-form"></textarea>
           </div>
         </div>
 
@@ -118,7 +118,9 @@ export default {
 * {
   font-family: "游ゴシック Medium";
 }
-
+html{
+  width:100%;
+}
 .top{
   width: 100%;
   position:relative;
@@ -236,7 +238,7 @@ export default {
 
 
 }
-.fac-content-form-box input{
+.fac-content-form-box textarea{
   width:100%;
   height:100%;
 }
