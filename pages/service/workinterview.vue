@@ -118,7 +118,7 @@ export default {
   font-size: 2vw;
 }
 .textbox {
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 
 
