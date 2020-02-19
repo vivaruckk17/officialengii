@@ -111,6 +111,10 @@
             <textarea type="text" name="faq-form"></textarea>
           </div>
         </div>
+        <hr>
+        <div class="submit-btn">
+          <input type="submit" value="送信する">
+        </div>
 
 
       </div>
@@ -250,7 +254,7 @@ html{
 }
 .fac-content-form-box{
   margin-top:1rem;
-  margin-bottom:2rem;
+  margin-bottom:1rem;
   width: 100%;
   height:14rem;
 
