@@ -7,7 +7,7 @@
         <img src="~assets/indeximg/homeTop.png" width="100%" height="100%" alt class="img-fluid" />
         <div class="row main-text">
           <div class="col-1"></div>
-          <div class="col-7">
+          <div class="col-7 toptextback">
             <img
               src="~assets/indeximg/chach-phrase.png"
               width="100%"
@@ -21,7 +21,7 @@
         <div class="row main-subtext">
           <div class="col-md-2 col-xs-2"></div>
           <div class="col-md-8 col-xs-8">
-            <p class="text-white">私たちはあなたのなりたい姿を実現する"きっかけ"を作ります</p>
+            <p class="text-white subtextback">私たちはあなたのなりたい姿を実現する"きっかけ"を作ります</p>
           </div>
           <div class="col-md-2 col-xs-2"></div>
         </div>
@@ -86,7 +86,7 @@
           />
           <div class="row reader-text text-white">
             <div class="col-5"></div>
-            <div class="col-5">
+            <div class="col-5 rdtextback">
               <p class="text-white">リーダーメッセージ</p>
             </div>
             <div class="col-2"></div>
@@ -230,6 +230,12 @@ export default {
 }
 .blank {
   padding-top: 8%;
+}
+.toptextback{
+  background-color:rgba(204, 204, 204, 0.404) ;
+}
+.subtextback{
+  background-color: rgba(204, 204, 204, 0.404);
 }
 .row {
   margin-left: 0%;

@@ -189,16 +189,18 @@ export default {
 }
 
 #coment_support {
-  color: #7e7e7e;
+  color: white;
   position: absolute;
   top: 20%;
   font-size: 2vw;
+  background-color:rgba(204, 204, 204, 0.404) ;
 }
 
 #coment-body {
   position: absolute;
   top: 80%;
   font-size: 2vw;
+  background-color:rgba(204, 204, 204, 0.404) ;
 }
 
 .body-comment {

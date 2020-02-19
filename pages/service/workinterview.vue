@@ -111,11 +111,13 @@ export default {
   position: absolute;
   top: 20%;
   font-size: 2vw;
+  background-color:rgba(204, 204, 204, 0.404) ;
 }
 #coment_work {
   position: absolute;
   top: 80%;
   font-size: 2vw;
+  background-color:rgba(204, 204, 204, 0.404) ;
 }
 .textbox {
   font-size: 1.5vw;

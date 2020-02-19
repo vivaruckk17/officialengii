@@ -78,6 +78,7 @@ export default {
 }
 .know-text p {
   font-size: 2vw;
+  background-color:rgba(204, 204, 204, 0.404) ;
 }
 .chie-text {
   position: absolute;
@@ -85,5 +86,6 @@ export default {
 }
 .chie-text p {
   font-size: 2vw;
+  background-color:rgba(204, 204, 204, 0.404) ;
 }
 </style>
