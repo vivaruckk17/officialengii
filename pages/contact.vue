@@ -20,8 +20,8 @@
           </div>
         </div>
       </div>
-      <div class="main-form container">
-        <div class="faq-form row">
+      <div class="main-form">
+        <div class="faq-form">
           <p>お問い合わせ情報入力</P>
         </div>
         <div class="form-box genre">
