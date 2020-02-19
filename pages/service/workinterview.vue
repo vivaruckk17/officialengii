@@ -120,7 +120,7 @@ export default {
   background-color:rgba(204, 204, 204, 0.404) ;
 }
 .textbox {
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 
 

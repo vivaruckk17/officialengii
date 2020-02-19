@@ -426,7 +426,7 @@ export default {
 @keyframes sample01 {
 0% {
  opacity: 1;
- transform: translateX(-2000px);
+ transform: translateX(2000px);
 }
   50%{
     opacity: 1;
@@ -441,7 +441,7 @@ export default {
 @keyframes sample02 {
 0% {
  opacity: 1;
- transform: translateX(-2000px);
+ transform: translateX(2000px);
 }
   50%{
     opacity: 1;
@@ -456,7 +456,7 @@ export default {
 @keyframes sample03 {
 0% {
  opacity: 1;
- transform: translateX(-2000px);
+ transform: translateX(2000px);
 }
   50%{
     opacity: 1;
