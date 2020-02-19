@@ -31,6 +31,13 @@
               <p>必須</p>
             </div>
           </div>
+          <div class="genre-select">
+            <select name="select">
+              <option value="ボディメイクサポート">ワークインタビュー</option>
+              <option value="ボディメイクサポート">ボディメイクサポート</option>
+              <option value="ボディメイクサポート">EnGii知恵の輪</option>
+            </select>
+          </div>
         </div>
         <hr>
         <div class="form-box name">
