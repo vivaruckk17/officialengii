@@ -11,7 +11,7 @@ export default {
 </script>
 <style>
 html {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP";
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
