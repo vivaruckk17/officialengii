@@ -92,6 +92,9 @@
                   <p>必須</p>
             </div>
           </div>
+          <div class="fac-content-form-box">
+            <input type="text" name="faq-form">
+          </div>
         </div>
 
 
@@ -197,7 +200,7 @@ export default {
   display: flex;
 }
 .family-name{
-  border:solid 1px #484848;
+ 
   box-sizing: border-box;
   width:45%;
   margin-right:1rem;
@@ -208,7 +211,7 @@ export default {
 
 .first-name{
   box-sizing: border-box;
-  border:solid 1px #484848;
+
   width:45%;
   margin-left:1rem;
   
@@ -222,8 +225,20 @@ export default {
 
 .mail-address-form-box{
   margin-top:1rem;
-  border:solid 1px #484848;
+
   width:100%;
+}
+.fac-content-form-box{
+  margin-top:1rem;
+  margin-bottom:2rem;
+  width: 100%;
+  height:14rem;
+
+
+}
+.fac-content-form-box input{
+  width:100%;
+  height:100%;
 }
 
 </style>
