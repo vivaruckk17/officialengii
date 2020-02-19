@@ -143,6 +143,5 @@ export default {};
 .body-texts p,
 .chie-texts p {
   font-size: 2vw;
-  border-bottom: solid 1px;
 }
 </style>
