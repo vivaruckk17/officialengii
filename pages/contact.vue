@@ -264,5 +264,8 @@ html{
   width:100%;
   height:100%;
 }
-
+.submit-btn{
+  text-align:center;
+  margin-bottom:2rem;
+}
 </style>
