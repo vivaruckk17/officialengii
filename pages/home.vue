@@ -415,45 +415,45 @@ export default {
   animation-fill-mode: forwards;
 }
 @media screen and (min-width: 767px) {
-@keyframes sample01 {
-  0% {
-    opacity: 1;
-    transform: translateX(2000px);
+  @keyframes sample01 {
+    0% {
+      opacity: 1;
+      transform: translateX(2000px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  50% {
-    opacity: 1;
-    transform: translateX(0);
+  .sideinleft2 {
+    animation-name: sample02;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
   }
-}
-.sideinleft2 {
-  animation-name: sample02;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
-}
-@keyframes sample02 {
-  0% {
-    opacity: 1;
-    transform: translateX(2000px);
+  @keyframes sample02 {
+    0% {
+      opacity: 1;
+      transform: translateX(2000px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  50% {
-    opacity: 1;
-    transform: translateX(0);
+  .sideinleft3 {
+    animation-name: sample03;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
   }
-}
-.sideinleft3 {
-  animation-name: sample03;
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
-}
-@keyframes sample03 {
-  0% {
-    opacity: 1;
-    transform: translateX(2000px);
+  @keyframes sample03 {
+    0% {
+      opacity: 1;
+      transform: translateX(2000px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
-  50% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 }
 </style>
