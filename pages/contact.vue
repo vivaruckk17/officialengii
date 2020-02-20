@@ -133,7 +133,7 @@ export default {
 };
 </script>
 <style>
-@media screen and (max-width: 767px) {
+
 .top{
   width: 100%;
   position:relative;
@@ -146,7 +146,6 @@ export default {
 }
 .contact-box{
   position: absolute;
-  padding-left:20px;
   padding-right: 10px;
   width:100%;
   color:white;
@@ -250,6 +249,5 @@ export default {
 .submit-btn{
   text-align:center;
   margin-bottom:2rem;
-}
 }
 </style>
