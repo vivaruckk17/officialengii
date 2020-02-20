@@ -414,6 +414,7 @@ export default {
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+@media screen and (min-width: 767px) {
 @keyframes sample01 {
   0% {
     opacity: 1;
@@ -453,5 +454,6 @@ export default {
     opacity: 1;
     transform: translateX(0);
   }
+}
 }
 </style>
