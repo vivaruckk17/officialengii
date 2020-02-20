@@ -133,13 +133,7 @@ export default {
 };
 </script>
 <style>
-
-* {
-  font-family: "游ゴシック Medium";
-}
-html{
-  width:100%;
-}
+@media screen and (max-width: 767px) {
 .top{
   width: 100%;
   position:relative;
@@ -214,32 +208,21 @@ html{
 }
 .must-icon p{
   font-size:0.9rem;
-  margin:0;
   margin: 0.1rem 0.7rem;
 }
-
-
 .name-form-box{
   margin-top:1rem;
   display: flex;
 }
 .family-name{
- 
   box-sizing: border-box;
   width:45%;
   margin-right:1rem;
-
-  
-
 }
-
 .first-name{
   box-sizing: border-box;
-
   width:45%;
   margin-left:1rem;
-  
-
 }
 .family-name input,
 .first-name input,
@@ -267,5 +250,6 @@ html{
 .submit-btn{
   text-align:center;
   margin-bottom:2rem;
+}
 }
 </style>

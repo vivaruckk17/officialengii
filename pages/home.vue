@@ -29,11 +29,7 @@
       <hr />
       <div class="row keiivision" v-scroll="handleScroll">
         <div class="visionback col-md-6 col-xs-12">
-          <img
-            src="~assets/indeximg/fesremake.jpg"
-            alt
-            class="img-fluid vision-oya"
-          />
+          <img src="~assets/indeximg/fesremake.jpg" alt class="img-fluid vision-oya" />
           <div class="vision-text text-white">
             <p>「目指すビジョン」</p>
           </div>
@@ -51,11 +47,7 @@
           </div>
         </div>
         <div class="keiiback col-md-6 col-xs-12">
-          <img
-            src="~assets/indeximg/background.jpg"
-            alt
-            class="img-fluid"
-          />
+          <img src="~assets/indeximg/background.jpg" alt class="img-fluid" />
           <div class="keii-text text-white">
             <p>「EnGiiの作られた経緯」</p>
           </div>
@@ -215,7 +207,6 @@ export default {
     }
   }
 };
-
 </script>
 
 
@@ -231,10 +222,10 @@ export default {
 .blank {
   padding-top: 8%;
 }
-.toptextback{
-  background-color:rgba(204, 204, 204, 0.404) ;
+.toptextback {
+  background-color: rgba(204, 204, 204, 0.404);
 }
-.subtextback{
+.subtextback {
   background-color: rgba(204, 204, 204, 0.404);
 }
 .row {
@@ -285,9 +276,9 @@ export default {
 }
 
 @media screen and (min-width: 767px) {
-  .visionback img{
-    width:100%;
-    height:100%;
+  .visionback img {
+    width: 100%;
+    height: 100%;
   }
   .vision-text {
     position: absolute;
@@ -309,9 +300,9 @@ export default {
   }
 }
 @media screen and (max-width: 767px) {
-  .visionback img{
-    width:90%;
-    height:90%;
+  .visionback img {
+    width: 90%;
+    height: 90%;
   }
   .vision-text {
     position: absolute;
@@ -330,7 +321,7 @@ export default {
     width: 95%;
   }
   .vision-subtext p {
-    font-size:calc(8px + 0.3vw);
+    font-size: calc(8px + 0.3vw);
   }
 }
 .keiiback {
@@ -341,9 +332,9 @@ export default {
   border-radius: 5% 5% 5% 5%;
 }
 @media screen and (min-width: 767px) {
-  .keiiback img{
-    width:100%;
-    height:100%;
+  .keiiback img {
+    width: 100%;
+    height: 100%;
   }
   .keii-text {
     position: absolute;
@@ -366,9 +357,9 @@ export default {
   }
 }
 @media screen and (max-width: 767px) {
-  .keiiback img{
-    width:90%;
-    height:90%;
+  .keiiback img {
+    width: 90%;
+    height: 90%;
   }
   .keii-text {
     position: absolute;
@@ -418,49 +409,49 @@ export default {
   opacity: 0;
   transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
 }
-.sideinleft1{ 
-  animation-name:sample01;
-  animation-duration:5s; 
+.sideinleft1 {
+  animation-name: sample01;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 @keyframes sample01 {
-0% {
- opacity: 1;
- transform: translateX(2000px);
-}
-  50%{
+  0% {
     opacity: 1;
-     transform: translateX(0);
+    transform: translateX(2000px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
-.sideinleft2{ 
-  animation-name:sample02;
-  animation-duration:6s; 
+.sideinleft2 {
+  animation-name: sample02;
+  animation-duration: 6s;
   animation-fill-mode: forwards;
 }
 @keyframes sample02 {
-0% {
- opacity: 1;
- transform: translateX(2000px);
-}
-  50%{
+  0% {
     opacity: 1;
-     transform: translateX(0);
+    transform: translateX(2000px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
-.sideinleft3{ 
-  animation-name:sample03;
-  animation-duration:7s; 
+.sideinleft3 {
+  animation-name: sample03;
+  animation-duration: 7s;
   animation-fill-mode: forwards;
 }
 @keyframes sample03 {
-0% {
- opacity: 1;
- transform: translateX(2000px);
-}
-  50%{
+  0% {
     opacity: 1;
-     transform: translateX(0);
+    transform: translateX(2000px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 </style>
