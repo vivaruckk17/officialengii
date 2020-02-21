@@ -154,7 +154,7 @@ export default {
 }
 .contact-box .text1{
   font-size: 2.0rem;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 .contact-box .text2{
   width:100%;
