@@ -155,6 +155,7 @@ export default {
 }
 .contact-box .text1{
   font-size: 2.0rem;
+  padding-left: 20px;
 }
 .contact-box .text2{
   width:100%;
@@ -249,5 +250,8 @@ export default {
 .submit-btn{
   text-align:center;
   margin-bottom:2rem;
+}
+.row {
+  margin:0;
 }
 </style>
