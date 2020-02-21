@@ -1,7 +1,7 @@
 <template>
-  <div class="main">
+  <div class="contact-form">
     <engiiheader />
-    <div class="main">
+    <div class="main-contact">
       <div class="top">
         <div class="background-image-main">
           <img 
@@ -262,6 +262,31 @@ export default {
   }
   .contact-box .text2{
     bottom:2rem;
+  }
+}
+@media screen and (min-width:400px) and (max-width:767px){
+  .main-contact{
+    max-width:400px;
+    margin:0 auto;
+  }
+}
+@media screen and (min-width:767px){
+  
+  .contact-box{
+    top:10rem;
+
+  }
+  .contact-box .text1{
+    font-size: 3.0rem;
+    padding-left:10%;
+  }
+  .contact-box .text2{
+    bottom:-70px;
+    font-size:1.7rem;
+
+  }
+  .text2 .text2-box{
+    width:70%;
   }
 }
 
