@@ -148,19 +148,19 @@ export default {
   padding-right: 10px;
   width:100%;
   color:white;
-  top:3rem;
+  top:2.5rem;
   height:200px;
   
 }
 .contact-box .text1{
-  font-size: 2.0rem;
+  font-size: 1.7rem;
   padding-left: 30px;
 }
 .contact-box .text2{
   width:100%;
   font-size:0.8rem;
   position:absolute;
-  bottom:2rem;
+  bottom:3.2rem;
   text-align:left;
 }
 .text2 .text2-box{
@@ -253,4 +253,16 @@ export default {
 .row {
   margin:0;
 }
+@media screen and (min-width: 350px){
+  .contact-box{
+    top:3rem;
+  }
+  .contact-box .text1{
+    font-size: 2.0rem;
+  }
+  .contact-box .text2{
+    bottom:2rem;
+  }
+}
+
 </style>
