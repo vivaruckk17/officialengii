@@ -148,7 +148,7 @@ export default {
   padding-right: 10px;
   width:100%;
   color:white;
-  top:2rem;
+  top:3rem;
   height:200px;
   
 }
@@ -158,8 +158,7 @@ export default {
 }
 .contact-box .text2{
   width:100%;
-  font-size:1rem;
-  font-weight: 600;
+  font-size:0.8rem;
   position:absolute;
   bottom:2rem;
   text-align:left;
