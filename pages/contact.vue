@@ -14,7 +14,7 @@
           </div>
           <div class="text2">
             <div class="text2-box">
-              <p>EnGiiのアービス・ブログに関する<br>
+              <p>EnGiiのサービス・ブログに関する<br>
               お問い合わせ、質問、要望等を受け付けています。</p>
             </div>
           </div>
