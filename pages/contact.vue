@@ -14,8 +14,7 @@
           </div>
           <div class="text2">
             <div class="text2-box">
-              <p>EnGiiのサービス・ブログに関する<br>
-              お問い合わせ、質問、要望等を受け付けています。</p>
+              <p>EnGiiのサービス・ブログに関するお問い合わせ、質問、要望等を受け付けています。</p>
             </div>
           </div>
         </div>
@@ -160,6 +159,7 @@ export default {
 .contact-box .text2{
   width:100%;
   font-size:1rem;
+  font-weight: 600;
   position:absolute;
   bottom:2rem;
   text-align:left;
