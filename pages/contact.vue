@@ -295,21 +295,24 @@ export default {
     padding-top:120px;
     margin: 0 auto;
   }
+  .main-form{
+    margin-top:50px;
+  }
   .contact-box{
-    top:10rem;
+    top:1rem;
 
   }
   .contact-box .text1{
-    font-size: 3.0rem;
-    padding-left:10%;
+    font-size: 2.0rem;
+    padding-left:5%;
   }
   .contact-box .text2{
-    bottom:-70px;
-    font-size:1.7rem;
+    top:5rem;
+    font-size:1.0rem;
 
   }
   .text2 .text2-box{
-    width:70%;
+    width:90%;
   }
   .form-box{
     display:flex;
@@ -337,6 +340,17 @@ export default {
 @media screen and (min-width:1024px){
   .main-contact{
     max-width: 1024px;
+  }
+  .contact-box .text1{
+    font-size: 3.0rem;
+  }
+  .contact-box .text2{
+    top:7rem;
+    font-size:1.4rem;
+
+  }
+  .text2 .text2-box{
+    width:90%;
   }
 }
 </style>
