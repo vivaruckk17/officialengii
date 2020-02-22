@@ -53,12 +53,6 @@ export default {
 .servicetitle {
   margin-top: 3%;
 }
-
-#coment_know,
-#coment-chie {
-  font-size: 2.9vw;
-}
-
 #coment-chie {
   padding-top: 20%;
   padding-left: 20%;
@@ -75,7 +69,8 @@ export default {
   top: 20%;
 }
 .know-text p {
-  font-size: 2vw;
+  font-size: 2.7vw;
+  font-weight: 600;
   background-color:rgba(204, 204, 204, 0.404) ;
 }
 .chie-text {
@@ -83,7 +78,8 @@ export default {
   top: 80%;
 }
 .chie-text p {
-  font-size: 2vw;
+  font-size: 2.3vw;
+  font-weight: 600;
   background-color:rgba(204, 204, 204, 0.404) ;
 }
 </style>

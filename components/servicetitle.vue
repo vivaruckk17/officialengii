@@ -41,6 +41,7 @@ export default {};
     border-top: solid 2px #00cdff;
     text-align: center;
     font-size: 8px;
+    font-weight: 700;
     height: 20px;
   }
   .padding {

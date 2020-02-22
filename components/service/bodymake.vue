@@ -68,7 +68,7 @@ export default {};
   top: 40px;
 }
 .bodyintext p {
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: "游ゴシック Medium";
   color: white;
 }
@@ -79,6 +79,7 @@ export default {};
   top: 60%;
 }
 .body-texts p {
-  font-size: 2vw;
+  font-size: 2.7vw;
+  font-weight: 600;
 }
 </style>

@@ -108,6 +108,7 @@ export default {};
   .nav-link {
     color: black;
     font-size: 20px;
+    font-weight: 600;
   }
   .eingii-logo {
     display: none;
@@ -141,6 +142,7 @@ export default {};
   }
   .nav-link {
     font-size: 18px;
+    font-weight: 600;
     color: white;
   }
   .nav-link:hover {

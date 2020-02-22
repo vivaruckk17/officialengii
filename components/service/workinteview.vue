@@ -62,8 +62,7 @@ export default {};
   top: 40px;
 }
 .workintext p {
-  font-size: 2vw;
-  font-family: "游ゴシック Medium";
+  font-size: 3vw;
   color: white;
 }
 .work-texts-back{
@@ -75,6 +74,7 @@ export default {};
   top: 60%;
 }
 .work-texts p {
-  font-size: 2vw;
+  font-size: 2.7vw;
+  font-weight: 600;
 }
 </style>

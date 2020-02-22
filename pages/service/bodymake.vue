@@ -189,14 +189,16 @@ export default {
   color: white;
   position: absolute;
   top: 20%;
-  font-size: 2vw;
+  font-size: 2.7vw;
+  font-weight: 600;
   background-color:rgba(204, 204, 204, 0.404) ;
 }
 
 #coment-body {
   position: absolute;
   top: 80%;
-  font-size: 2vw;
+  font-size: 2.3vw;
+  font-weight: 600;
   background-color:rgba(204, 204, 204, 0.404) ;
 }
 

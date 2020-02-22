@@ -398,7 +398,8 @@ export default {
   top: 60%;
 }
 .reader-text p {
-  font-size: 2vw;
+  font-size: 2.7vw;
+  font-weight: 600;
   background-color: rgba(204, 204, 204, 0.404);
 }
 .footer {
