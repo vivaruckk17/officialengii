@@ -270,8 +270,10 @@ export default {
     margin:0 auto;
   }
 }
-@media screen and (min-width:767px){
-  
+@media screen and (min-width:767px) and (max-width:1024px){
+  .main-contact{
+    max-width:767px;
+  }
   .contact-box{
     top:10rem;
 
@@ -288,6 +290,16 @@ export default {
   .text2 .text2-box{
     width:70%;
   }
+  .form-box{
+    display:flex;
+  }
+  .title-box{
+    width:50%;
+  }
+  .genre-select{
+    width:50%;
+  }
+
 }
 
 </style>
