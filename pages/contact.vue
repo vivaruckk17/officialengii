@@ -214,7 +214,6 @@ export default {
    padding-left: 10px;
    padding-right: 10px;
   font-size:0.9rem;
-  margin: 0.1rem 0.7rem;
 }
 .name-form-box{
   margin-top:1rem;
@@ -260,6 +259,9 @@ export default {
 .row {
   margin:0;
 }
+  .pc-size{
+    display:none;
+  }
 @media screen and (min-width: 350px){
   .contact-box{
     top:3rem;
