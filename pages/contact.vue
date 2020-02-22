@@ -329,6 +329,9 @@ export default {
   .responsive-size{
     display:none;
   }
+  .pc-size{
+    display:block;
+  }
 
 }
 @media screen and (min-width:1024px){
