@@ -275,7 +275,7 @@ export default {
 @media screen and (min-width:767px) and (max-width:1024px){
   .main-contact{
     max-width:767px;
-    padding-top:150px;
+    padding-top:120px;
     margin: 0 auto;
   }
   .contact-box{
