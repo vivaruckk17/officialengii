@@ -273,8 +273,14 @@ export default {
   }
 }
 @media screen and (min-width:767px) and (max-width:1024px){
-  .main-contact{
+.main-contact{
     max-width:767px;
+    padding-top:120px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:767px){
+  .main-contact{
     padding-top:120px;
     margin: 0 auto;
   }
@@ -311,5 +317,9 @@ export default {
   }
 
 }
-
+@media screen and (min-width:1024px){
+  .main-contact{
+    max-width: 1024px;
+  }
+}
 </style>
