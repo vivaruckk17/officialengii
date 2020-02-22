@@ -201,11 +201,11 @@ export default {
 }
 .must-icon{
   margin-left:3rem;
-  background-color:#00CDFF;
   color:white;
   font-weight:600;
 }
 .must-icon p{
+   background-color:#00CDFF;
   font-size:0.9rem;
   margin: 0.1rem 0.7rem;
 }
@@ -298,6 +298,9 @@ export default {
     width:50%;
   }
   .genre-select{
+    width:50%;
+  }
+  .mail-address-form-box{
     width:50%;
   }
 
