@@ -2,7 +2,7 @@
   <div class="main">
     <engiiheader />
     <div class="blank"></div>
-    <div class="container">
+    <div class="home-main container">
       <div class="mainback">
         <img src="~assets/indeximg/homeTop.png" width="100%" height="100%" alt class="img-fluid" />
         <div class="row main-text">
@@ -454,6 +454,11 @@ export default {
       opacity: 1;
       transform: translateX(0);
     }
+  }
+}
+@media screen and (min-width:1024px) {
+  .home-main{
+    max-width:1024px;
   }
 }
 </style>
