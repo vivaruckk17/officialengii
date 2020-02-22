@@ -76,9 +76,7 @@ export default {
 </script>
 
 <style>
-* {
-  font-family:  'Noto Sans JP', sans-serif;
-}
+
 .blankw {
   padding-top: 8%;
 }

@@ -70,9 +70,7 @@ export default {
 
 
 <style>
-* {
-  font-family: "Noto Sans JP", sans-serif;
-}
+
 .rdmain {
   margin-left: 0;
   margin-right: 0;

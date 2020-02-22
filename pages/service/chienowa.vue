@@ -46,9 +46,7 @@ export default {
 </script>
 
 <style>
-* {
-  font-family:  'Noto Sans JP', sans-serif;
-}
+
 .blankc {
   padding-top: 8%;
 }

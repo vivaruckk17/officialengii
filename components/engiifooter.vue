@@ -27,9 +27,7 @@ export default {};
 </script>
   
 <style>
-*{
- font-family:  'Noto Sans JP', sans-serif;
-}
+
 .container {
   padding: 0;
 }

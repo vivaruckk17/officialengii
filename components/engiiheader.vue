@@ -43,9 +43,7 @@ export default {};
 </script>
     
 <style>
-* {
-  font-family: "游ゴシック Medium";
-}
+
 @media screen and (max-width: 767px) {
   .engii-icon {
     margin-top: 10px;

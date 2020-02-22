@@ -133,9 +133,7 @@ export default {
 </script>
 
 <style>
-*{
-    font-family:  'Noto Sans JP', sans-serif;
-}
+
 .application-title{
     border-left: solid 3px #00CDFF;
     margin-bottom: 50px;

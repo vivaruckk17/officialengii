@@ -217,7 +217,6 @@ export default {
 * {
   margin-left: 0%;
   margin-right: 0%;
-  font-family: "Noto Sans JP", sans-serif;
 }
 .blank {
   padding-top: 8%;

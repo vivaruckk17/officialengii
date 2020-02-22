@@ -171,9 +171,6 @@ export default {
 </script>
 
 <style>
-* {
-  font-family: "游ゴシック Medium";
-}
 
 .blankb {
   padding-top: 8%;

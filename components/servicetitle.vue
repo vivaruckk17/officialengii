@@ -26,9 +26,6 @@ export default {};
 
 
 <style>
-* {
-  font-family:  'Noto Sans JP', sans-serif;
-}
 
 @media screen and (min-width: 530px) {
   #border-top {
