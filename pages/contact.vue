@@ -305,6 +305,9 @@ export default {
   .mail-address-form-box{
     width:50%;
   }
+  .fac-content-form-box{
+    width: 50%;
+  }
 
 }
 
