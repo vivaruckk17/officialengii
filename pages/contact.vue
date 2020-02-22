@@ -206,8 +206,8 @@ export default {
 }
 .must-icon p{
    background-color:#00CDFF;
-   padding-left: 50px;
-   padding-right: 50px;
+   padding-left: 10px;
+   padding-right: 10px;
   font-size:0.9rem;
   margin: 0.1rem 0.7rem;
 }
