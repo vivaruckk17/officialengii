@@ -6,7 +6,12 @@
         <div class="background-image-main">
           <img 
           style="width:100%;"
+          class="responsive-size"
           src="~assets/contact/image01.png"/>
+          <img
+          style="width:100%;"
+          class="pc-size"
+          src="~assets/contact/bg-pc-size.png">
         </div>
         <div class="contact-box">
           <div class="text1">
@@ -265,11 +270,17 @@ export default {
   .contact-box .text2{
     bottom:2rem;
   }
+  .pc-size{
+    display:none;
+  }
 }
 @media screen and (min-width:400px) and (max-width:767px){
   .main-contact{
     max-width:400px;
     margin:0 auto;
+  }
+  .pc-size{
+    display:none;
   }
 }
 @media screen and (min-width:767px) and (max-width:1024px){
@@ -314,6 +325,9 @@ export default {
   }
   .fac-content-form-box{
     width: 50%;
+  }
+  .responsive-size{
+    display:none;
   }
 
 }
