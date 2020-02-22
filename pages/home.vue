@@ -409,12 +409,12 @@ export default {
   opacity: 0;
   transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
 }
-.sideinleft1 {
-  animation-name: sample01;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-}
 @media screen and (min-width: 767px) {
+  .sideinleft1 {
+    animation-name: sample01;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
   @keyframes sample01 {
     0% {
       opacity: 1;
