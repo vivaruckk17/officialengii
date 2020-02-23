@@ -5,7 +5,7 @@
     <div class="container">
       <div class="pg">
         <img
-          src="~assets/indeximg/bodmeremake.png"
+          src="~assets/service/bodymake/diet_suport.png"
           alt="ボディメイク"
           width="90%"
           height="90%"

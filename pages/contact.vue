@@ -28,23 +28,24 @@
         <div class="faq-form">
           <p>お問い合わせ情報入力</P>
         </div>
-        <div class="form-box genre">
-          <div class="title-box">
-            <p>お問い合わせジャンル</p>
-            <div class="must-icon">
-              <p>必須</p>
+        <form name="contact" method="POST" netlify>
+          <div class="form-box genre">
+            <div class="title-box">
+              <p>お問い合わせジャンル</p>
+              <div class="must-icon">
+                <p>必須</p>
+              </div>
+            </div>
+            <div class="genre-select">
+              <select name="select">
+                <option value="ワークインタビュー">ワークインタビュー</option>
+                <option value="ボディメイクサポート">ボディメイクサポート</option>
+                <option value="EnGii知恵の輪">EnGii知恵の輪</option>
+                <option value="その他">その他</option>
+              </select>
             </div>
           </div>
-          <div class="genre-select">
-            <select name="select">
-              <option value="ワークインタビュー">ワークインタビュー</option>
-              <option value="ボディメイクサポート">ボディメイクサポート</option>
-              <option value="EnGii知恵の輪">EnGii知恵の輪</option>
-              <option value="その他">その他</option>
-            </select>
-          </div>
-        </div>
-        <hr>
+          <hr>
         <div class="form-box name">
           <div class="title-box">
             <p>お名前</p>
@@ -59,68 +60,67 @@
             <div class="first-name">
               <input type="text" name="family-name" placeholder="太郎">
             </div>
-          </div>
-        </div>
-        <hr>
-        <div class="form-box name-sub">
-          <div class="title-box">
-            <p>お名前（フリガナ）</p>
-            <div class="must-icon">
-                  <p>必須</p>
             </div>
           </div>
-          <div class="name-form-box">
-            <div class="family-name">
-              <input type="text" name="family-name" placeholder="ヤマダ">
+          <hr>
+          <div class="form-box name-sub">
+            <div class="title-box">
+              <p>お名前（フリガナ）</p>
+              <div class="must-icon">
+                    <p>必須</p>
+              </div>
             </div>
-            <div class="first-name">
-              <input type="text" name="family-name" placeholder="タロウ">
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="form-box sex">
-          <div class="title-box">
-            <p>性別</p>
-          </div>
-            <div class="sex-select">
-            <select name="select">
-              <option value="male">男性</option>
-              <option value="female">女性</option>
-              <option value="その他">その他</option>
-            </select>
-          </div>
-        </div>
-        <hr>
-        <div class="form-box mail-address">
-          <div class="title-box">
-            <p>メールアドレス</p>
-            <div class="must-icon">
-                  <p>必須</p>
+            <div class="name-form-box">
+              <div class="family-name">
+                <input type="text" name="family-name" placeholder="ヤマダ">
+              </div>
+              <div class="first-name">
+                <input type="text" name="family-name" placeholder="タロウ">
+              </div>
             </div>
           </div>
-          <div class="mail-address-form-box">
-            <input type="text" name="mail-adddress" placeholder="◯◯◯@example.com">
-          </div>
-        </div>
-        <hr>
-        <div class="form-box faq-content">
-          <div class="title-box">
-            <p>お問い合わせ内容</p>
-            <div class="must-icon">
-                  <p>必須</p>
+          <hr>
+          <div class="form-box sex">
+            <div class="title-box">
+              <p>性別</p>
+            </div>
+              <div class="sex-select">
+              <select name="select">
+                <option value="male">男性</option>
+                <option value="female">女性</option>
+                <option value="その他">その他</option>
+              </select>
             </div>
           </div>
-          <div class="fac-content-form-box">
-            <textarea type="text" name="faq-form"></textarea>
+          <hr>
+          <div class="form-box mail-address">
+            <div class="title-box">
+              <p>メールアドレス</p>
+              <div class="must-icon">
+                    <p>必須</p>
+              </div>
+            </div>
+            <div class="mail-address-form-box">
+              <input type="text" name="mail-adddress" placeholder="◯◯◯@example.com">
+            </div>
           </div>
-        </div>
-        <hr>
-        <div class="submit-btn">
-          <input type="submit" value="送信する">
-        </div>
-
-
+          <hr>
+          <div class="form-box faq-content">
+            <div class="title-box">
+              <p>お問い合わせ内容</p>
+              <div class="must-icon">
+                    <p>必須</p>
+              </div>
+            </div>
+            <div class="fac-content-form-box">
+              <textarea type="text" name="faq-form"></textarea>
+            </div>
+          </div>
+          <hr>
+          <div class="submit-btn">
+            <input type="submit" value="送信する">
+          </div>
+        </form>
       </div>
     </div>
    <engiifooter />
@@ -223,7 +223,7 @@ export default {
   box-sizing: border-box;
   width:45%;
   margin-right:1rem;
-}
+} 
 .first-name{
   box-sizing: border-box;
   width:45%;
