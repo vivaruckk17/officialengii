@@ -12,7 +12,7 @@
           />
           <div class="row body-texts text-white">
             <div class="col-5 offset-5 ">
-              <p class="text-white body-texts-back">ボディメイクサポート</p>
+              <p class="text-white body-texts-back">ダイエットサポート</p>
             </div>
             <div class="col-2"></div>
           </div>
@@ -27,9 +27,7 @@ export default {};
 </script>
 
 <style>
-*{
-  font-family:  'Noto Sans JP', sans-serif;
-}
+
 .allservice {
   text-align: center;
 }

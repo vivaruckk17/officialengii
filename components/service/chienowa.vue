@@ -67,7 +67,6 @@ export default {};
 }
 .chieintext p {
   font-size: 3vw;
-  font-family: "游ゴシック Medium";
   color: white;
 }
 .chie-texts-back{
