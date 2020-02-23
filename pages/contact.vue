@@ -55,10 +55,10 @@
           </div>
           <div class="name-form-box">
             <div class="family-name">
-              <input type="text" name="family-name" placeholder="山田">
+              <label><input type="text" name="family-name" placeholder="山田"></label>
             </div>
             <div class="first-name">
-              <input type="text" name="family-name" placeholder="太郎">
+              <label><input type="text" name="family-name" placeholder="太郎"></label>
             </div>
             </div>
           </div>
