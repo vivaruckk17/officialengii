@@ -107,13 +107,13 @@
           <hr>
           <div class="form-box faq-content">
             <div class="title-box">
-              <p>お問い合わせ内容</p>
+              <p><label for="faq-form">お問い合わせ内容</label></p>
               <div class="must-icon">
                     <p>必須</p>
               </div>
             </div>
             <div class="fac-content-form-box">
-              <textarea type="text" name="faq-form"></textarea>
+              <textarea type="text" name="faq-form" id="faq-form"></textarea>
             </div>
           </div>
           <hr>
