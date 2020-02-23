@@ -118,7 +118,7 @@
           </div>
           <hr>
           <div class="submit-btn">
-            <input type="submit" value="送信する">
+            <button type="submit">送信</button>
           </div>
         </form>
       </div>
