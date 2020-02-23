@@ -8,7 +8,7 @@
       </div>
       <div class="col-4 padding">
         <router-link to="/service/bodymake" exact exact-active-class="active">
-          <p class="text-bodymake" id="border-top">ボディメイクサポート</p>
+          <p class="text-bodymake" id="border-top">ダイエットサポート</p>
         </router-link>
       </div>
       <div class="col-4 padding">

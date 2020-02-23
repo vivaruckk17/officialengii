@@ -3,7 +3,7 @@
   <div class="header-contaner rgba">
     <div class="row">
       <div class="offset-4 col-7 engii-icon">
-        <img src="~assets/engii.png" width="50%" height="200px" class="img-fluid" />
+        <img src="~assets/logo/logo.png" width="50%" height="200px" class="img-fluid" />
       </div>
     </div>
     <input id="menu-cb" type="checkbox" value="off" />

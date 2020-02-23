@@ -4,9 +4,9 @@
       <div class="engiimedia row">
         <div class="col-3">
           <img
-            src="~assets/footerimg/logo-white.png"
-            width="50%"
-            height="50%"
+            src="~assets/logo/logo.png"
+            width="60%"
+            height="100%"
             alt
             class="img-fluid"
           />

@@ -76,7 +76,7 @@ export default {
 .blankl {
   padding-top: 8%;
 }
-.container img {
+.d-block {
   border-radius: 20px;
 }
 .center {
