@@ -31,13 +31,13 @@
         <form name="contact" method="POST" netlify>
           <div class="form-box genre">
             <div class="title-box">
-              <p>お問い合わせジャンル</p>
+              <p><label for="genre-select">お問い合わせジャンル</label></p>
               <div class="must-icon">
                 <p>必須</p>
               </div>
             </div>
             <div class="genre-select">
-              <select name="select">
+              <select name="select" id="genre-select">
                 <option value="ワークインタビュー">ワークインタビュー</option>
                 <option value="ボディメイクサポート">ボディメイクサポート</option>
                 <option value="EnGii知恵の輪">EnGii知恵の輪</option>
