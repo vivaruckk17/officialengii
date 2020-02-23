@@ -26,9 +26,7 @@ export default {};
 </script>
 
 <style>
-*{
-  font-family:  'Noto Sans JP', sans-serif;
-}
+
 .allservice {
   text-align: center;
 }
