@@ -37,7 +37,7 @@
               </div>
             </div>
             <div class="genre-select">
-              <select name="select" id="genre-select">
+              <select name="select-genre" id="genre-select">
                 <option value="ワークインタビュー">ワークインタビュー</option>
                 <option value="ボディメイクサポート">ボディメイクサポート</option>
                 <option value="EnGii知恵の輪">EnGii知恵の輪</option>
@@ -58,7 +58,7 @@
               <label><input type="text" name="family-name" placeholder="山田"></label>
             </div>
             <div class="first-name">
-              <label><input type="text" name="family-name" placeholder="太郎"></label>
+              <label><input type="text" name="fist-name" placeholder="太郎"></label>
             </div>
             </div>
           </div>
@@ -72,10 +72,10 @@
             </div>
             <div class="name-form-box">
               <div class="family-name">
-                <input type="text" name="family-name" placeholder="ヤマダ">
+                <input type="text" name="family-name2" placeholder="ヤマダ">
               </div>
               <div class="first-name">
-                <input type="text" name="family-name" placeholder="タロウ">
+                <input type="text" name="first-name2" placeholder="タロウ">
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@
               <p>性別</p>
             </div>
               <div class="sex-select">
-              <select name="select">
+              <select name="select-sex">
                 <option value="male">男性</option>
                 <option value="female">女性</option>
                 <option value="その他">その他</option>
