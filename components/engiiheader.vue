@@ -149,7 +149,7 @@ export default {};
     text-decoration: none;
   }
   .link-box {
-    padding-top: 10px;
+    padding-top: 20px;
   }
   .nav-item p {
     color: white;
