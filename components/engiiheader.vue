@@ -13,7 +13,7 @@
       <ul class="nav row" id="anchor">
         <div class="col-3 eingii-logo">
           <nuxt-link v-scroll-to="'#anchor'" to>
-            <img src="~assets/logo/logo_engii2.png" width="50%" height="auto" class="img-fluid" />
+            <img src="~assets/logo/logo.png" width="80%" height="auto" class="img-fluid" />
           </nuxt-link>
         </div>
         <div class="col-md-1"></div>
