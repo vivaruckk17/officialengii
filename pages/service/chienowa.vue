@@ -28,7 +28,7 @@
     <div class="cominig-soon" style="width:75% !important;margin:0 auto;">
       <img class="w-100" src="~assets/coming_soon.png" />
     </div>
-    <engiifooter />
+    <engiifooter class="bottomfoot" />
   </div>
 </template>
 
@@ -46,7 +46,6 @@ export default {
 </script>
 
 <style>
-
 .blankc {
   padding-top: 8%;
 }
