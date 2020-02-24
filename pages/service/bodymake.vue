@@ -6,7 +6,7 @@
       <div class="pg">
         <img
           src="~assets/service/bodymake/bodymake.png"
-          alt="ボディメイク"
+          alt="ダイエットサポート"
           width="90%"
           height="90%"
           class="img-fluid"
