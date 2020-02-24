@@ -18,7 +18,7 @@
           </p>
         </div>
         <div class="row">
-          <p id="coment-body" class="text-white offset-8 col-auto">ダイエットサポート</p>
+          <p id="coment-body" class="text-white offset-8 offset-lg-7 col-auto">ダイエットサポート</p>
         </div>
       </div>
     </div>

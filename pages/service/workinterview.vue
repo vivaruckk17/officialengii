@@ -15,7 +15,7 @@
           <p id="coment_real" class="offset-1 col-auto">いろんな仕事のリアルな声を発信します</p>
         </div>
         <div class="row">
-          <p id="coment_work" class="offset-8 col-auto">ワークインタビュー</p>
+          <p id="coment_work" class="offset-8 offset-lg-7 col-auto">ワークインタビュー</p>
         </div>
       </div>
     </div>
