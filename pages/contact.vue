@@ -39,7 +39,7 @@
             <div class="genre-select">
               <select name="select-genre" id="genre-select">
                 <option value="ワークインタビュー">ワークインタビュー</option>
-                <option value="ボディメイクサポート">ボディメイクサポート</option>
+                <option value="ボディメイクサポート">ダイエットサポート</option>
                 <option value="EnGii知恵の輪">EnGii知恵の輪</option>
                 <option value="その他">その他</option>
               </select>
