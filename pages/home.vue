@@ -29,7 +29,7 @@
       <hr />
       <div class="row keiivision" v-scroll="handleScroll">
         <div class="visionback col-md-6 col-xs-12">
-          <img src="~assets/indeximg/fesremake.jpg" alt class="img-fluid vision-oya" />
+          <img src="~assets/indeximg/fesremake.png" alt class="img-fluid vision-oya" />
           <div class="vision-text text-white">
             <p>「目指すビジョン」</p>
           </div>
