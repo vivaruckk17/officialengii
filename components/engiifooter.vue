@@ -5,7 +5,7 @@
         <div class="col-3">
           <img
             src="~assets/logo/logo.png"
-            width="60%"
+            width="70%"
             height="100%"
             alt
             class="img-fluid"
