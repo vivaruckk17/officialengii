@@ -1,17 +1,17 @@
 <template>
-<form name="contact" netlify-honeypot="bot-field" action="thank-you"  data-netlify="true" method="post">
-  <input type="hidden" name="form-name" value="contact" />
-  <p class="hidden"  style="display: none;">
-    <label>Don’t fill this out: <input name="bot-field"></label>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+<input type="hidden" name="form-name" value="contact" />
+    <label>Your Name: <input type="text" name="name" /></label>   
   </p>
   <p>
-    <label>Email: <input type="text" name="name"></label>
+    <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
-    <button type=”submit”>Send</button>
+    <button type="submit">Send</button>
   </p>
 </form>
 </template>
