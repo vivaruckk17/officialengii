@@ -12,7 +12,7 @@
           alt="知恵の輪"
         />
         <div class="row chie-know">
-          <div class="offset-1 col-5 know-text text-white">
+          <div class="offset-1 col-auto know-text text-white">
             <p>知りたかったことを知ろう</p>
           </div>
           <div class="col-6"></div>
