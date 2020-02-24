@@ -4,7 +4,7 @@
       <div id="body" class="row">
         <router-link to="/service/bodymake">
           <img
-            src="~assets/indeximg/bodymake.png"
+            src="~assets/indeximg/diet.png"
             width="87%"
             height="100%"
             alt
