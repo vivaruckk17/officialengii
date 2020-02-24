@@ -59,7 +59,7 @@ export default {
 }
 @media screen and (max-width: 767px) {
   .serviceblank {
-    height: 100px;
+    height: 150px;
   }
 }
 </style>

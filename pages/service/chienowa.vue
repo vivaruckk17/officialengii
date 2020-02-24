@@ -89,7 +89,7 @@ export default {
 }
 @media screen and (max-width: 767px) {
   .chieblank {
-    height: 100px;
+    height: 150px;
   }
 }
 </style>
