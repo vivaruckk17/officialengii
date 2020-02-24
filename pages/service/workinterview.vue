@@ -25,13 +25,13 @@
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10 boxs">
-          <p class="textbox">
-            「こんな仕事もあるんだ！」「この会社、この職種ってお給料はどれくらいなんだろう」「辛いかな、楽しいかな」 等々みんなが知りたい仕事のことってとても多いですよね。もちろん上記 のような事だけでなく、本当に多岐にわたる疑問や知りたいことが仕事に対してあったりします。ワークインタビューは アルバイトや会社で仕事をしている人の[リアルな声を発信して、これから就職をする人や転職をする人、アルバイトをする人のため に少しでもためになればと思いインタビュー形式で質疑応答をし、それをブログ形式にて取りまとめたものになります。 EnGiiワークインタビューが皆さんの暇つぶしや、これからの為になるような発見があればいいなと思います。
-          </p>
+          <p
+            class="textbox"
+          >「こんな仕事もあるんだ！」「この会社、この職種ってお給料はどれくらいなんだろう」「辛いかな、楽しいかな」 等々みんなが知りたい仕事のことってとても多いですよね。もちろん上記 のような事だけでなく、本当に多岐にわたる疑問や知りたいことが仕事に対してあったりします。ワークインタビューは アルバイトや会社で仕事をしている人の[リアルな声を発信して、これから就職をする人や転職をする人、アルバイトをする人のため に少しでもためになればと思いインタビュー形式で質疑応答をし、それをブログ形式にて取りまとめたものになります。 EnGiiワークインタビューが皆さんの暇つぶしや、これからの為になるような発見があればいいなと思います。</p>
           <div class="col-1"></div>
         </div>
       </div>
-      
+
       <!--<p :class="{'fade-in': scrollY > 150 }">Sample01-FADE-IN</p>-->
       <div class="cominig-soon" style="width:75% !important;margin:0 auto;">
         <img class="w-100" src="~assets/coming_soon.png" />
@@ -57,21 +57,20 @@ export default {
     return {
       // 座標を指定
       scrollY: 0
-    }
+    };
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
     handleScroll() {
-      this.scrollY = window.scrollY
+      this.scrollY = window.scrollY;
     }
   }
 };
 </script>
 
 <style>
-
 .blankw {
   padding-top: 8%;
 }
@@ -104,34 +103,39 @@ export default {
   top: 20%;
   font-size: 2.7vw;
   font-weight: 600;
-  background-color:rgba(204, 204, 204, 0.404) ;
+  background-color: rgba(204, 204, 204, 0.404);
 }
 #coment_work {
   position: absolute;
   top: 80%;
   font-size: 2.3vw;
   font-weight: 600;
-  background-color:rgba(204, 204, 204, 0.404) ;
+  background-color: rgba(204, 204, 204, 0.404);
 }
-.textbox {
-  font-size: 1rem;
+@media screen and (max-width: 767px) {
+  .textbox {
+    font-size: 15px;
+  }
 }
-
-
-.fade-in{ 
-  font-size:40px;
-  animation-name:sample01;
-  animation-duration:3s; 
+@media screen and (max-width: 767px) {
+  .textbox {
+    font-size: 10px;
+  }
+}
+.fade-in {
+  font-size: 40px;
+  animation-name: sample01;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes sample01 {
-0% {
- opacity: 1;
- transform: translateX(-2000px);
-}
-  50%{
+  0% {
     opacity: 1;
-     transform: translateX(0);
+    transform: translateX(-2000px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 </style>
