@@ -28,7 +28,8 @@
         <div class="faq-form">
           <p>お問い合わせ情報入力</P>
         </div>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST" data-netlify="true" netlify>
+          <input type="hidden" name="form-name" value="contact" />
           <div class="form-box genre">
             <div class="title-box">
               <p><label for="genre-select">お問い合わせジャンル</label></p>
