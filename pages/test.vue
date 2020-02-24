@@ -18,7 +18,16 @@
 
 <script>
 export default {
-  
+  data: function() {
+    return {
+      isActive: false
+    };
+  },
+  methods: {
+    toggle_class: function() {
+      this.isActive = !this.isActive;
+    }
+  }
 };
 </script>
 
