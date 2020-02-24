@@ -5,6 +5,7 @@
     <workinteview />
     <bodymake />
     <chienowa />
+    <div class="serviceblank"></div>
     <engiifooter class="footermargin" />
     <!-- <servicetitle class="servicetitle" /> -->
   </div>
@@ -51,5 +52,14 @@ export default {
 .footermargin {
   margin-top: 70px;
 }
-
+@media screen and (min-width: 767px) {
+  .serviceblank{
+    height: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .serviceblank {
+    height: 100px;
+  }
+}
 </style>

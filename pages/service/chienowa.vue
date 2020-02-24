@@ -28,6 +28,7 @@
     <div class="cominig-soon" style="width:75% !important;margin:0 auto;">
       <img class="w-100" src="~assets/coming_soon.png" />
     </div>
+    <div class="chieblank"></div>
     <engiifooter class="bottomfoot" />
   </div>
 </template>
@@ -70,7 +71,7 @@ export default {
 .know-text p {
   font-size: 2.7vw;
   font-weight: 600;
-  background-color:rgba(204, 204, 204, 0.404) ;
+  background-color: rgba(204, 204, 204, 0.404);
 }
 .chie-text {
   position: absolute;
@@ -79,6 +80,16 @@ export default {
 .chie-text p {
   font-size: 2.3vw;
   font-weight: 600;
-  background-color:rgba(204, 204, 204, 0.404) ;
+  background-color: rgba(204, 204, 204, 0.404);
+}
+@media screen and (min-width: 767px) {
+  .chieblank {
+    height: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .chieblank {
+    height: 100px;
+  }
 }
 </style>
