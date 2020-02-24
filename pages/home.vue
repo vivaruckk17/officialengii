@@ -34,14 +34,16 @@
             <p>「目指すビジョン」</p>
           </div>
           <div class="vision-subtext text-white">
-            <p>EnGiiが介在し、沢山の人が関わり合うことで
-          　<br>新しい自分に出会えるキッカケをより多く作り 
-        　　<br>ありたい姿、なりたい姿を叶えることができる。
-            <br>そんなグループを目指します。
+            <p>
+              EnGiiが介在し、沢山の人が関わり合うことで
+              <br />新しい自分に出会えるキッカケをより多く作り
+              <br />ありたい姿、なりたい姿を叶えることができる。
+              <br />そんなグループを目指します。
             </p>
-            <p>私たちEnGiiは 
-            <br>私達の今までの自身の経験から「あったらいいな、できたらいいな」 
-            <br>を形にして、皆様の力になれたらと思っています。
+            <p>
+              私たちEnGiiは
+              <br />私達の今までの自身の経験から「あったらいいな、できたらいいな」
+              <br />を形にして、皆様の力になれたらと思っています。
             </p>
           </div>
         </div>
@@ -51,13 +53,12 @@
             <p>「EnGiiとは」</p>
           </div>
           <div class="keii-subtext text-white">
-            <p>なぜ「ENGII」なのか、、、 
-            </p>
+            <p>なぜ「ENGII」なのか、、、</p>
             <p>
-            <br>新しい出会いや発見が自らにとって良いものだった時 
-            <br>その先の人生は大きく変わる気がする... 
-            <br>“縁起のいい出会いや発見”を提供したい
-            <br>縁起いい＝EnGii   となりました。
+              <br />新しい出会いや発見が自らにとって良いものだった時
+              <br />その先の人生は大きく変わる気がする...
+              <br />“縁起のいい出会いや発見”を提供したい
+              <br />縁起いい＝EnGii となりました。
             </p>
           </div>
         </div>
@@ -144,16 +145,6 @@ export default {
     handleScroll: function(evt, el) {
       console.log(window.scrollY);
       console.log(window.outerWidth);
-
-      if (window.outerWidth < 720) {
-        if (window.scrollY > 30) {
-          el.setAttribute(
-            "style",
-            "opacity: 1; transform: translate3d(0, -10px, 0)"
-          );
-        }
-        return window.scrollY > 35;
-      }
       if (window.outerWidth > 720) {
         if (window.scrollY > 500) {
           el.setAttribute(
@@ -167,15 +158,6 @@ export default {
     handleScroll2: function(evt, el) {
       console.log(window.scrollY);
       console.log(window.outerWidth);
-      if (window.outerWidth < 720) {
-        if (window.scrollY > 70) {
-          el.setAttribute(
-            "style",
-            "opacity: 1; transform: translate3d(0, -10px, 0)"
-          );
-        }
-        return window.scrollY > 75;
-      }
       if (window.outerWidth > 720) {
         if (window.scrollY > 780) {
           el.setAttribute(
@@ -252,12 +234,9 @@ export default {
     font-weight: bold;
   }
 }
-
 .keiivision {
   margin-top: 6%;
   text-align: center;
-  opacity: 0;
-  transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
 }
 .visionback {
   position: relative;
@@ -270,6 +249,10 @@ export default {
   .visionback img {
     width: 100%;
     height: 100%;
+  }
+  .keiivision {
+    opacity: 0;
+    transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
   }
   .vision-text {
     position: absolute;
@@ -372,12 +355,21 @@ export default {
     font-size: calc(8px + 0.3vw);
   }
 }
-.readerback {
-  position: relative;
-  text-align: center;
-  width: 100%;
-  opacity: 0;
-  transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
+@media screen and (min-width: 767px) {
+  .readerback {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: 1.5s all cubic-bezier(0.48, 0.01, 1, 1);
+  }
+}
+@media screen and (max-width: 767px) {
+  .readerback {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
 }
 .readerback img {
   border-radius: 20px;
@@ -448,9 +440,9 @@ export default {
     }
   }
 }
-@media screen and (min-width:1024px) {
-  .home-main{
-    max-width:1024px;
+@media screen and (min-width: 1024px) {
+  .home-main {
+    max-width: 1024px;
   }
 }
 </style>
