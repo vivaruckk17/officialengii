@@ -11,7 +11,7 @@
             class="img-fluid d-block mx-auto"
           />
           <div class="row work-texts">
-            <div class="col-5 offset-5">
+            <div class="col-auto offset-5">
               <p class="text-white work-texts-back">ワークインタビュー</p>
             </div>
           </div>

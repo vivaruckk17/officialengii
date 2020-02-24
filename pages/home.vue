@@ -75,7 +75,7 @@
           />
           <div class="row reader-text text-white">
             <div class="col-5"></div>
-            <div class="col-5 rdtextback">
+            <div class="col-auto rdtextback">
               <p class="text-white">リーダーメッセージ</p>
             </div>
             <div class="col-2"></div>

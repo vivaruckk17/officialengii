@@ -11,7 +11,7 @@
             class="img-fluid d-block mx-auto"
           />
           <div class="row body-texts text-white">
-            <div class="col-5 offset-5 ">
+            <div class="col-auto offset-5">
               <p class="text-white body-texts-back">ダイエットサポート</p>
             </div>
             <div class="col-2"></div>
