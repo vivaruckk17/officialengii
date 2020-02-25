@@ -15,7 +15,7 @@ export default ({ app }) => {
     /*
     ** 現在のページをセット
     */
-    ga('create', 'G-FDLZ5BCVP3', 'auto')
+    ga('create', 'UA-151653861-2', 'auto')
     /*
     ** ルートが変更されるたびに毎回実行（初期化も実行される）
     */
