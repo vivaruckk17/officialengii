@@ -45,7 +45,8 @@ export default {
   */
   plugins: [
     '~plugins/vue-scrollto',
-    '~plugins/scroll.js'
+    '~plugins/scroll.js',
+    { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
