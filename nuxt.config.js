@@ -21,6 +21,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {name: 'description' ,content:'EnGiiはあなたのなりたい姿を実現する”きっかけ”を作ります。なりたい姿がある人はEnGiiにお任せください'},
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
