@@ -28,7 +28,7 @@
         <div class="faq-form">
           <p>お問い合わせ情報入力</P>
         </div>
-        <form name="contact" method="POST" data-netlify="true" netlify>
+        <form name="contact" method="POST" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScFmXcpULR4m5TlKy2zIKEFfKokMsnAxw-HaaMA7EHLUvTheg/formResponse">
           <input type="hidden" name="form-name" value="contact" />
           <div class="form-box genre">
             <div class="title-box">
@@ -38,7 +38,7 @@
               </div>
             </div>
             <div class="genre-select">
-              <select name="select-genre" id="genre-select">
+              <select name="entry.96712381" id="genre-select">
                 <option value="ワークインタビュー">ワークインタビュー</option>
                 <option value="ボディメイクサポート">ダイエットサポート</option>
                 <option value="EnGii知恵の輪">EnGii知恵の輪</option>
@@ -56,10 +56,10 @@
           </div>
           <div class="name-form-box">
             <div class="family-name">
-              <label><input type="text" name="family-name" placeholder="山田"></label>
+              <label><input type="text" name="entry.1031909706" placeholder="山田"></label>
             </div>
             <div class="first-name">
-              <label><input type="text" name="fist-name" placeholder="太郎"></label>
+              <label><input type="text" name="entry.525231597" placeholder="太郎"></label>
             </div>
             </div>
           </div>
@@ -73,10 +73,10 @@
             </div>
             <div class="name-form-box">
               <div class="family-name">
-                <input type="text" name="family-name2" placeholder="ヤマダ">
+                <input type="text" name="entry.1295500273" placeholder="ヤマダ">
               </div>
               <div class="first-name">
-                <input type="text" name="first-name2" placeholder="タロウ">
+                <input type="text" name="entry.1538708987" placeholder="タロウ">
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@
               <p>性別</p>
             </div>
               <div class="sex-select">
-              <select name="select-sex">
+              <select name="entry.1265909879">
                 <option value="male">男性</option>
                 <option value="female">女性</option>
                 <option value="その他">その他</option>
@@ -102,7 +102,7 @@
               </div>
             </div>
             <div class="mail-address-form-box">
-              <input type="text" name="mail-adddress" placeholder="◯◯◯@example.com">
+              <input type="text" name="entry.1012238211" placeholder="◯◯◯@example.com">
             </div>
           </div>
           <hr>
@@ -114,7 +114,7 @@
               </div>
             </div>
             <div class="fac-content-form-box">
-              <textarea type="text" name="faq-form" id="faq-form"></textarea>
+              <textarea type="text" name="entry.980068434" id="faq-form"></textarea>
             </div>
           </div>
           <hr>
