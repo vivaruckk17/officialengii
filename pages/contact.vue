@@ -119,7 +119,7 @@
           </div>
           <hr>
           <div class="submit-btn">
-            <input type="submit" value="送信">
+            <button type="submit" name="button" value="送信" @click="$router.push('thanks')">送信</button>
           </div>
         </form>
       </div>
