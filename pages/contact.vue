@@ -28,7 +28,7 @@
         <div class="faq-form">
           <p>お問い合わせ情報入力</P>
         </div>
-        <form name="contact" method="POST" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScFmXcpULR4m5TlKy2zIKEFfKokMsnAxw-HaaMA7EHLUvTheg/formResponse">
+        <form name="contact" method="POST" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScFmXcpULR4m5TlKy2zIKEFfKokMsnAxw-HaaMA7EHLUvTheg/formResponse" target="dummy">
           <input type="hidden" name="form-name" value="contact" />
           <div class="form-box genre">
             <div class="title-box">
@@ -119,9 +119,10 @@
           </div>
           <hr>
           <div class="submit-btn">
-            <button type="submit" name="button" value="送信" @click="$router.push('thanks')">送信</button>
+            <button type="submit" name="button" value="送信" @click="$router.push('home')">送信</button>
           </div>
         </form>
+        <iframe name="dummy" style="display:none"></iframe>
       </div>
     </div>
    <engiifooter />
