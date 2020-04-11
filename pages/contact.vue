@@ -39,10 +39,10 @@
             </div>
             <div class="genre-select">
               <label><select name="entry.96712381" id="genre-select">
-                <option value="ワークインタビュー">ワークインタビュー</option>
-                <option value="ボディメイクサポート">ダイエットサポート</option>
-                <option value="EnGii知恵の輪">EnGii知恵の輪</option>
-                <option value="その他">その他</option>
+                <option value="ワークインタビュー" data-value="ワークインタビュー">ワークインタビュー</option>
+                <option value="ボディメイクサポート" data-value="ボディメイクサポート">ダイエットサポート</option>
+                <option value="EnGii知恵の輪" data-value="EnGii知恵の輪">EnGii知恵の輪</option>
+                <option value="その他" data-value="その他">その他</option>
               </select></label>
             </div>
           </div>
@@ -87,8 +87,8 @@
             </div>
               <div class="sex-select">
               <label><select name="entry.1265909879">
-                <option value="male">男性</option>
-                <option value="female">女性</option>
+                <option value="男性" data-value="男性">男性</option>
+                <option value="女性" data-value="女性">女性</option>
                 <option value="その他">その他</option>
               </select></label>
             </div>
