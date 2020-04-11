@@ -119,7 +119,7 @@
           </div>
           <hr>
           <div class="submit-btn">
-            <button type="submit" name="button" value="送信" @click="$router.push('home')">送信</button>
+            <button type="submit" name="button" value="送信" @click="$router.push('index')">送信</button>
           </div>
         </form>
         <iframe name="dummy" style="display:none"></iframe>

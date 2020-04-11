@@ -14,7 +14,7 @@
     <ul class="nav row" id="anchor">
       <div class="col-md-1"></div>
       <li class="nav-item col-md-auto homepad">
-        <router-link to="/home">
+        <router-link to="/index">
           <p class="nav-link link-box">HOME</p>
         </router-link>
       </li>

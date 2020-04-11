@@ -18,7 +18,7 @@
         </div>
         <div class="col-md-1"></div>
         <li class="nav-item col-md-auto">
-          <router-link to="/home" class="nav-link link-box homepad">HOME</router-link>
+          <router-link to="/index" class="nav-link link-box homepad">HOME</router-link>
         </li>
         <li class="nav-item col-md-auto">
           <router-link to="/service/servicehome" class="nav-link link-box">SERVICE</router-link>

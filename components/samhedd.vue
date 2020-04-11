@@ -12,7 +12,7 @@
       <nav>
         <ul>
           <li class="col-auto">
-            <router-link to="/home">
+            <router-link to="/index">
               <p>HOME</p>
             </router-link>
           </li>
